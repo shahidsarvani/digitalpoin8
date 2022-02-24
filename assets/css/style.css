@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body, html {
+  min-height: 100vh;
+}
+
 header {
   width: 100%;
   height: 90px;
@@ -53,4 +57,12 @@ header {
   text-decoration: none;
   font-size: 18px;
   color: #FFF;
+}
+
+.main_section {
+  background-image: url("../images/section_bg.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 160vh;
+  width: 100%;
 }
