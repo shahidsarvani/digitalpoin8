@@ -113,8 +113,12 @@ header {
 
 .content_inner_dp h2 {
   font-size: 85px;
+  line-height: 70px;
+  display: inline;
   text-transform: uppercase;
   font-weight: 800;
+  /*  text-shadow: 10px 0 23px rgba(0,0,0, 0.65),
+                     0px 4px 1px rgba(0,0,0, 0.46); */
   background-color: #00b4a0;
   /* Create the gradient. */
   background-image: -webkit-gradient(linear, left top, left bottom, from(#00b4a0), color-stop(0%, #00b4a0), to(#09acc2));
@@ -128,4 +132,15 @@ header {
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
+}
+
+.content_inner_dp span {
+  color: transparent;
+  font-size: 55px;
+  line-height: 45px;
+  text-transform: uppercase;
+  -webkit-text-fill-color: transparent;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #7bf4ff;
 }

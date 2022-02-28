@@ -12,8 +12,12 @@
 
     h2 {
         font-size: 85px;
+        line-height: 70px;
+        display: inline;
         text-transform: uppercase;
         font-weight: 800;
+        /*  text-shadow: 10px 0 23px rgba(0,0,0, 0.65),
+                     0px 4px 1px rgba(0,0,0, 0.46); */
         background-color: rgba(0,180,160,1);
         
         /* Create the gradient. */
@@ -29,5 +33,17 @@
         -webkit-text-fill-color: transparent; 
         -moz-background-clip: text;
         -moz-text-fill-color: transparent;
+
+       
+
+    }
+    span {
+        color: transparent;
+        font-size: 55px;
+        line-height: 45px;
+        text-transform: uppercase;
+        -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgb(123,244,255);
     }
 }
