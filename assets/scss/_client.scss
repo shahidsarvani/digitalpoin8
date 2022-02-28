@@ -16,3 +16,21 @@
     }
 
 }
+
+.client_slider {
+    .content_wrappeer {
+        padding: 20px;
+       
+        img {
+            width: 180px;
+            height: 90px;
+            object-fit: contain;
+            margin: 0 auto;
+        }
+    }
+    .slick-slide {
+        border: 2px solid #14484B;
+        border-radius: 20px;
+        margin: 0px 10px;
+    }
+}

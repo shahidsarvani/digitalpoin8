@@ -165,3 +165,21 @@ header {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #FFF;
 }
+
+.client_slider .content_wrappeer {
+  padding: 20px;
+}
+
+.client_slider .content_wrappeer img {
+  width: 180px;
+  height: 90px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 0 auto;
+}
+
+.client_slider .slick-slide {
+  border: 2px solid #14484B;
+  border-radius: 20px;
+  margin: 0px 10px;
+}
