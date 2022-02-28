@@ -268,6 +268,126 @@ header {
   color: #5dffe8;
 }
 
+.custom-form .form-control {
+  background-color: transparent;
+  border-color: #184c4e;
+  border-radius: 50px;
+  border-width: 2px;
+}
+
+.custom-form .form-control::-webkit-input-placeholder {
+  color: #5dffe8;
+}
+
+.custom-form .form-control:-ms-input-placeholder {
+  color: #5dffe8;
+}
+
+.custom-form .form-control::-ms-input-placeholder {
+  color: #5dffe8;
+}
+
+.custom-form .form-control::placeholder {
+  color: #5dffe8;
+}
+
+.custom-form .form-select {
+  background-color: transparent;
+  border-radius: 50px;
+  border-color: #184c4e;
+  border-width: 2px;
+}
+
+.custom-form .form-select {
+  background-color: transparent;
+  border-radius: 50px;
+  border-color: #184c4e;
+  border-width: 2px;
+  color: #5dffe8;
+}
+
+.custom-styles {
+  background-color: transparent;
+  border-radius: 15px;
+  border-color: #184c4e;
+  border-width: 2px;
+  resize: none;
+}
+
+.custom-styles::-webkit-input-placeholder {
+  color: #5dffe8;
+}
+
+.custom-styles:-ms-input-placeholder {
+  color: #5dffe8;
+}
+
+.custom-styles::-ms-input-placeholder {
+  color: #5dffe8;
+}
+
+.custom-styles::placeholder {
+  color: #5dffe8;
+}
+
+.custom-select option {
+  margin: 40px;
+  background: rgba(166, 166, 166, 0.3);
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.btn.btn-custom {
+  background-color: #5dffe8;
+  width: 110px;
+  height: 40px;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.btn.btn-custom:hover {
+  background-color: transparent;
+  border: 2px solid #5dffe8;
+  color: #5dffe8;
+}
+
+.social-icons ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 0;
+}
+
+.social-icons img {
+  width: 75%;
+}
+
+.footer {
+  background: #1a5153;
+}
+
+.what_we_do {
+  background-image: url("../images/what_we_do.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
 .projects_section {
   background-image: url("../images/bg_projects.svg");
   background-size: 100%;
@@ -321,3 +441,4 @@ header {
 .projects_slider .projects_wrappeer img {
   margin: 0 auto;
 }
+/*# sourceMappingURL=style.css.map */
