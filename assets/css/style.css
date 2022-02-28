@@ -223,6 +223,14 @@ header {
   color: #000;
 }
 
+.dp_sectiion_para {
+  font-size: 16px;
+  color: #FFF;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 .our_expertise {
   background-image: url("../images/our-expertise-bg.png");
   background-size: 100% 100%;
@@ -259,4 +267,54 @@ header {
 .our_expertise .platforms-supported li {
   list-style: none;
   color: #5dffe8;
+}
+
+.projects_section {
+  background-image: url("../images/bg_projects.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.projects_slider {
+  min-height: 450px;
+}
+
+.projects_slider .slick-slide.slick-current.slick-active {
+  border-radius: 20px;
+  overflow: hidden;
+  background: #01161d;
+  background: linear-gradient(85deg, rgba(1, 22, 29, 0) 0%, #195051 100%, #195051 100%);
+}
+
+.projects_slider .projects_wrappeer {
+  position: relative;
+  min-height: 220px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  overflow: hidden;
+}
+
+.projects_slider .projects_wrappeer .ar_wrap_projects {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: #FFF;
+  background-image: url("../images/ar_bg.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+  background-size: 100%;
+}
+
+.projects_slider .projects_wrappeer .ar_wrap_projects h3 {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.projects_slider .projects_wrappeer img {
+  margin: 0 auto;
 }
