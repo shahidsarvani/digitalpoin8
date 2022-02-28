@@ -399,7 +399,7 @@ header {
   min-height: 450px;
 }
 
-.projects_slider .slick-slide.slick-current.slick-active {
+.projects_slider .slick-slide.left-slide.slick-active {
   border-radius: 20px;
   overflow: hidden;
   background: #01161d;
@@ -436,4 +436,25 @@ header {
 
 .projects_slider .projects_wrappeer img {
   margin: 0 auto;
+}
+
+.projects_slider .slick-slide.right-slide.slick-active {
+  border-radius: 20px;
+  overflow: hidden;
+  background: #01161d;
+  background: linear-gradient(85deg, rgba(1, 22, 29, 0) 0%, #195051 100%, #195051 100%);
+}
+
+.projects_slider .slick-slide.right-slide.slick-active .ar_wrap_projects {
+  top: 0px;
+  right: unset;
+  left: 0px;
+  background-image: url("../images/ar_bg_2.svg");
+}
+
+.projects_slider .slick-slide.right-slide.slick-active .ar_wrap_projects h3 {
+  text-align: start;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: unset;
 }

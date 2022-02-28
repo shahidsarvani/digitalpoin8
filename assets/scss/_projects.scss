@@ -11,12 +11,13 @@
 
 
 .projects_slider {
-    .slick-slide.slick-current.slick-active {
+    .slick-slide.left-slide.slick-active {
         border-radius: 20px; 
         overflow: hidden;
         background: rgb(1,22,29);
         background: linear-gradient(85deg, rgba(1,22,29,0) 0%, rgba(25,80,81,1) 100%, rgba(25,80,81,1) 100%);  
     }
+   
     .projects_wrappeer {
         position: relative;
         min-height: 220px;
@@ -42,6 +43,24 @@
         }
         img {
             margin: 0 auto;
+        }
+    }
+    .slick-slide.right-slide.slick-active {
+        border-radius: 20px; 
+        overflow: hidden;
+        background: rgb(1,22,29);
+        background: linear-gradient(85deg, rgba(1,22,29,0) 0%, rgba(25,80,81,1) 100%, rgba(25,80,81,1) 100%);  
+        .ar_wrap_projects {
+            top: 0px;
+            right: unset;
+            left: 0px;
+            background-image: url('../images/ar_bg_2.svg');
+            h3 {
+                text-align: start;
+                margin-top: 10px;
+                margin-left: 15px;
+                margin-right: unset;
+            }
         }
     }
 }
