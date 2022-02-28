@@ -40,3 +40,28 @@ header {
     }
 
 }
+
+.navbar_dp {
+    .nav_cp_dp {
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    text-decoration: none;
+                    color: #FFF;
+                    font-size: 16px;
+                    border: 2px solid transparent;
+                    padding: 5px 10px;
+                    margin-right: 5px;
+                    text-transform: uppercase;
+                    transition: 250ms all ease-in;
+                }
+                .nav-link:hover {
+                    border: 2px solid #14484B;
+                    border-radius: 50px;
+                    color: #5DFFE8;
+                }
+                
+            }
+        }
+    }
+}

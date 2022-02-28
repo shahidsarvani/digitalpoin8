@@ -2,8 +2,35 @@
     margin: 0;
     padding: 0;
 }
-body, html {
+
+@font-face {
+    font-family: 'SF Compact Display Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Compact Display Thin'), url('../fonts/sf-compact-display-thin.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF Compact Display Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Compact Display Medium'), url('../fonts/sf-compact-display-medium.woff') format('woff');
+ }
+ @font-face {
+    font-family: 'SF Compact Display Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Compact Display Medium'), url('../fonts/sf_compact_display_heavy.ttf') format('ttf');
+ }
+
+
+ body, html {
     min-height: 100vh;
+    font-family: 'SF Compact Display Medium';
 }
+
+
+
 @import '_header';
 @import '_main-section';
