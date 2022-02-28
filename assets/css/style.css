@@ -286,6 +286,10 @@ header {
   background: linear-gradient(85deg, rgba(1, 22, 29, 0) 0%, #195051 100%, #195051 100%);
 }
 
+.projects_slider .slick-active:nth-child(3n-1) {
+  background: pink !important;
+}
+
 .projects_slider .projects_wrappeer {
   position: relative;
   min-height: 220px;

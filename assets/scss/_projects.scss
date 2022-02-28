@@ -17,7 +17,10 @@
         background: rgb(1,22,29);
         background: linear-gradient(85deg, rgba(1,22,29,0) 0%, rgba(25,80,81,1) 100%, rgba(25,80,81,1) 100%);  
     }
- 
+  
+    .slick-active:nth-child(3n-1){
+        background: pink !important;
+    }
     .projects_wrappeer {
         position: relative;
         min-height: 220px;
