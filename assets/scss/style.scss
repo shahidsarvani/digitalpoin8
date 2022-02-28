@@ -21,8 +21,10 @@
     font-family: 'SF Compact Display Heavy';
     font-style: normal;
     font-weight: normal;
-    src: local('SF Compact Display Medium'), url('../fonts/sf_compact_display_heavy.ttf') format('ttf');
+    src: local('SF Compact Display Medium'), url('../fonts/sf_compact_display_heavy.ttf') format('truetype');
  }
+
+
 
 
  body, html {
@@ -34,3 +36,4 @@
 
 @import '_header';
 @import '_main-section';
+@import '_client';

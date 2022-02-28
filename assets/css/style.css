@@ -21,7 +21,7 @@
   font-family: 'SF Compact Display Heavy';
   font-style: normal;
   font-weight: normal;
-  src: local("SF Compact Display Medium"), url("../fonts/sf_compact_display_heavy.ttf") format("ttf");
+  src: local("SF Compact Display Medium"), url("../fonts/sf_compact_display_heavy.ttf") format("truetype");
 }
 
 body, html {
@@ -100,10 +100,10 @@ header {
 }
 
 .main_section {
-  background-image: url("../images/section_bg.svg");
+  background-image: url("../images/section_bg.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  min-height: 160vh;
+  min-height: 145vh;
   width: 100%;
 }
 
@@ -143,4 +143,25 @@ header {
   /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #7bf4ff;
+}
+
+.client_section {
+  min-height: 30vh;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#194a4e), color-stop(#133a41), color-stop(#102b34), color-stop(#0c1d25), to(#010e16));
+  background-image: linear-gradient(to right bottom, #194a4e, #133a41, #102b34, #0c1d25, #010e16);
+}
+
+.dp_sec_heading {
+  font-size: 85px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+.dp_sec_heading span {
+  color: transparent;
+  text-transform: uppercase;
+  -webkit-text-fill-color: transparent;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #FFF;
 }
