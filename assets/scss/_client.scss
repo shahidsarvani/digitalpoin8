@@ -1,0 +1,42 @@
+.client_section {
+    min-height: 30vh;
+    background-image: linear-gradient(to right bottom, #194a4e, #133a41, #102b34, #0c1d25, #010e16);
+}
+.dp_sec_heading {
+    font-size: 85px;
+    text-transform: uppercase;
+    color: #FFF;
+
+    span {
+        color: transparent;
+        text-transform: uppercase;
+        -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #FFF;
+    }
+
+}
+
+.client_slider {
+    .content_wrappeer {
+        padding: 20px;
+       
+        img {
+            width: 180px;
+            height: 90px;
+            object-fit: contain;
+            margin: 0 auto;
+        }
+    }
+    .slick-slide {
+        border: 2px solid #14484B;
+        border-radius: 20px;
+        margin: 0px 10px;
+    }
+}
+
+.btn_dp8 {
+    min-width: 120px;
+    background-color: transparent;
+    border: 2px solid #5DFFE8;
+}

@@ -23,6 +23,28 @@
   font-style: normal;
   font-weight: normal;
   src: local("SF Compact Display Medium"),
+    url("../fonts/sf_compact_display_heavy.ttf") format("truetype");
+}
+
+body,
+html {
+  min-height: 100vh;
+  font-family: "SF Compact Display Medium";
+  background-color: #010e16;
+}
+
+@font-face {
+  font-family: "SF Compact Display Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Compact Display Medium"),
+    url("../fonts/sf-compact-display-medium.woff") format("woff");
+}
+@font-face {
+  font-family: "SF Compact Display Heavy";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Compact Display Medium"),
     url("../fonts/sf_compact_display_heavy.ttf") format("ttf");
 }
 
@@ -34,4 +56,5 @@ html {
 
 @import "_header";
 @import "_main-section";
+@import "_client";
 @import "_expertise";
