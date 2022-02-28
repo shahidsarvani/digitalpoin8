@@ -4,30 +4,51 @@
 }
 
 @font-face {
-  font-family: 'SF Compact Display Thin';
+  font-family: "SF Compact Display Thin";
   font-style: normal;
   font-weight: normal;
   src: local("SF Compact Display Thin"), url("../fonts/sf-compact-display-thin.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'SF Compact Display Medium';
+  font-family: "SF Compact Display Medium";
   font-style: normal;
   font-weight: normal;
   src: local("SF Compact Display Medium"), url("../fonts/sf-compact-display-medium.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'SF Compact Display Heavy';
+  font-family: "SF Compact Display Heavy";
   font-style: normal;
   font-weight: normal;
   src: local("SF Compact Display Medium"), url("../fonts/sf_compact_display_heavy.ttf") format("truetype");
 }
 
-body, html {
+body,
+html {
   min-height: 100vh;
-  font-family: 'SF Compact Display Medium';
-  background-color: #010E16;
+  font-family: "SF Compact Display Medium";
+  background-color: #010e16;
+}
+
+@font-face {
+  font-family: "SF Compact Display Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Compact Display Medium"), url("../fonts/sf-compact-display-medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Compact Display Heavy";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Compact Display Medium"), url("../fonts/sf_compact_display_heavy.ttf") format("ttf");
+}
+
+body,
+html {
+  min-height: 100vh;
+  font-family: "SF Compact Display Medium";
 }
 
 header {
@@ -201,3 +222,42 @@ header {
   background-color: #5DFFE8;
   color: #000;
 }
+
+.our_expertise {
+  background-image: url("../images/our-expertise-bg.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.our_expertise .txt-neon {
+  color: transparent;
+  font-size: 55px;
+  line-height: 45px;
+  text-transform: uppercase;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #14484b;
+}
+
+.our_expertise .title-exp {
+  width: 80%;
+  color: #fff;
+}
+
+.our_expertise .platforms-supported ul {
+  padding: 0;
+}
+
+.our_expertise .platforms-supported li::before {
+  content: "\002B";
+  font-size: 20px;
+  margin-right: 6px;
+  color: #0c3539;
+}
+
+.our_expertise .platforms-supported li {
+  list-style: none;
+  color: #5dffe8;
+}
+/*# sourceMappingURL=style.css.map */
