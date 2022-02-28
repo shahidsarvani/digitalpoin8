@@ -1,0 +1,35 @@
+.our_expertise {
+  background-image: url("../images/our-expertise-bg.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .txt-neon {
+    color: transparent;
+    font-size: 55px;
+    line-height: 45px;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #14484b;
+  }
+
+  .title-exp {
+    width: 80%;
+    color: #fff;
+  }
+
+  .platforms-supported ul {
+    padding: 0;
+  }
+  .platforms-supported li::before {
+    content: "\002B";
+    font-size: 20px;
+    margin-right: 6px;
+    color: #0c3539;
+  }
+  .platforms-supported li {
+    list-style: none;
+    color: #5dffe8;
+  }
+}
