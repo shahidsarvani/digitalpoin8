@@ -381,6 +381,13 @@ header {
   background: #1a5153;
 }
 
+.what_we_do {
+  background-image: url("../images/what_we_do.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
 .projects_section {
   background-image: url("../images/bg_projects.svg");
   background-size: 100%;
