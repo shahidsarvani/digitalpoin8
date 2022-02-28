@@ -27,6 +27,7 @@
 body, html {
   min-height: 100vh;
   font-family: 'SF Compact Display Medium';
+  background-color: #010E16;
 }
 
 header {
@@ -182,4 +183,10 @@ header {
   border: 2px solid #14484B;
   border-radius: 20px;
   margin: 0px 10px;
+}
+
+.btn_dp8 {
+  min-width: 120px;
+  background-color: transparent;
+  border: 2px solid #5DFFE8;
 }
