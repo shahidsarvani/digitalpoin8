@@ -11,5 +11,16 @@ $(document).ready(function(){
         adaptiveHeight: true
       });
 
+      
+      $('.projects_slider').slick({
+        dots: false,
+        arrows: false,
+        infinite: true,
+
+        speed: 300,
+        slidesToShow: 3,
+        adaptiveHeight: true
+      });
+
 
   });
