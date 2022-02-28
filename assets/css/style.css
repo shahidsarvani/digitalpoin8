@@ -233,8 +233,7 @@ header {
 
 .our_expertise {
   background-image: url("../images/our-expertise-bg.png");
-  background-size: 100% 100%;
-  background-position: center;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 
