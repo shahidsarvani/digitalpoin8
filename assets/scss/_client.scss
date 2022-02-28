@@ -37,6 +37,15 @@
 
 .btn_dp8 {
     min-width: 120px;
+    height: 35px;
     background-color: transparent;
     border: 2px solid #5DFFE8;
+    color: #5DFFE8;
+    font-size: 16px;
+    border-radius: 90px;
+    transition: 250ms all ease-in;
+    &:hover {
+        background-color: #5DFFE8;
+        color: #000;
+    }
 }
