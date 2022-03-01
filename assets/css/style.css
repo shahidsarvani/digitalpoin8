@@ -605,7 +605,7 @@ header {
   margin: 0 auto;
 }
 
-.projects_slider .projects_wrappeer .slick-slide.right-slide.slick-active {
+.slick-slide.right-slide.slick-active {
   border-radius: 20px;
   overflow: hidden;
   background: #195051;
@@ -613,14 +613,14 @@ header {
   background: linear-gradient(90deg, #195051 0%, #195051 21%, rgba(1, 22, 29, 0.211922) 100%);
 }
 
-.projects_slider .projects_wrappeer .slick-slide.right-slide.slick-active .ar_wrap_projects {
+.slick-slide.right-slide.slick-active .ar_wrap_projects {
   top: 0px;
   right: unset;
   left: 0px;
   background-image: url("../images/ar_bg_2.svg");
 }
 
-.projects_slider .projects_wrappeer .slick-slide.right-slide.slick-active .ar_wrap_projects h3 {
+.slick-slide.right-slide.slick-active .ar_wrap_projects h3 {
   text-align: start;
   margin-top: 10px;
   margin-left: 15px;
