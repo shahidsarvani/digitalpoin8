@@ -47,27 +47,27 @@
     img {
       margin: 0 auto;
     }
-    .slick-slide.right-slide.slick-active {
-        border-radius: 20px; 
-        overflow: hidden;
-        background: rgb(25,80,81);
-background: linear-gradient(90deg, rgba(25,80,81,1) 0%, rgba(25,80,81,1) 21%, rgba(1,22,29,0.21192226890756305) 100%);
-        .ar_wrap_projects {
-            top: 0px;
-            right: unset;
-            left: 0px;
-            background-image: url('../images/ar_bg_2.svg');
-            h3 {
-                text-align: start;
-                margin-top: 10px;
-                margin-left: 15px;
-                margin-right: unset;
-            }
-        }
-    }
+    
   }
 }
-
+.slick-slide.right-slide.slick-active {
+    border-radius: 20px; 
+    overflow: hidden;
+    background: rgb(25,80,81);
+    background: linear-gradient(90deg, rgba(25,80,81,1) 0%, rgba(25,80,81,1) 21%, rgba(1,22,29,0.21192226890756305) 100%);
+    .ar_wrap_projects {
+        top: 0px;
+        right: unset;
+        left: 0px;
+        background-image: url('../images/ar_bg_2.svg');
+        h3 {
+            text-align: start;
+            margin-top: 10px;
+            margin-left: 15px;
+            margin-right: unset;
+        }
+    }
+}
 
 .project_wrap_inner {
     width: 100%;

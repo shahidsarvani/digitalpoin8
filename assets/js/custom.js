@@ -83,9 +83,7 @@ $(document).ready(function () {
           },
         },
       ],
-    })
-
-    .on("beforeChange", function (event, slick, currentSlide, nextSlide) {
+    }).on("beforeChange", function (event, slick, currentSlide, nextSlide) {
       $(".projects_slider .slick-slide")
         .removeClass("right-slide")
         .removeClass("left-slide");
