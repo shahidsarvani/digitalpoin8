@@ -311,7 +311,13 @@ header {
   -webkit-text-stroke-color: #7bf4ff;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (max-width: 1024px) {
+  .main_section {
+    min-height: 56vh;
+  }
+}
+
+@media only screen and (max-width: 767px) {
   .main_section {
     min-height: 42vh !important;
   }
@@ -339,12 +345,6 @@ header {
   .content_inner_dp span {
     font-size: 25px;
     line-height: 0px;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .main_section {
-    min-height: 68vh;
   }
 }
 
