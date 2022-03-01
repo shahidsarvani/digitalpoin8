@@ -8,7 +8,7 @@
   .arrow_down {
     position: absolute;
     top: 180%;
-    left: 0;
+    left: -120px;
     transform: rotate(-90deg);
   }
   .arrow_down_ico {
@@ -169,9 +169,26 @@
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 767px) {
   .main_section {
-    min-height: 32vh;
+    min-height: 42vh;
+  }
+  .main_section .arrow_down {
+    position: absolute;
+    top: 380%;
+    left: -145px;
+  }
+
+  .main_section .nav_menu_club {
+    right: 120px;
+  }
+
+  .main_section .nav_menu_club_2 {
+    left: 35px;
+  }
+
+  .main_section .nav_menu_club_3 {
+    right: 15px;
   }
   .content_inner_dp {
     padding-top: 65px;

@@ -132,7 +132,7 @@ header {
 .main_section .arrow_down {
   position: absolute;
   top: 180%;
-  left: 0;
+  left: -120px;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
 }
@@ -311,9 +311,23 @@ header {
   -webkit-text-stroke-color: #7bf4ff;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 767px) {
   .main_section {
-    min-height: 32vh;
+    min-height: 42vh;
+  }
+  .main_section .arrow_down {
+    position: absolute;
+    top: 380%;
+    left: -145px;
+  }
+  .main_section .nav_menu_club {
+    right: 120px;
+  }
+  .main_section .nav_menu_club_2 {
+    left: 35px;
+  }
+  .main_section .nav_menu_club_3 {
+    right: 15px;
   }
   .content_inner_dp {
     padding-top: 65px;
@@ -716,7 +730,7 @@ header {
   background-repeat: no-repeat;
   background-size: 70%;
   border-top-left-radius: 16px;
-  padding-bottom: 75px;
+  padding-bottom: 95px;
 }
 
 .services .service_box img {
@@ -765,6 +779,20 @@ header {
 
 .thir_box {
   margin-top: 100%;
+}
+
+@media only screen and (min-width: 767px) {
+  .services .service_box .service_img {
+    background-size: 35% !important;
+    border-top-left-radius: 16px !important;
+    padding-bottom: 85px !important;
+  }
+  .services .sec_box {
+    margin-top: 15%;
+  }
+  .services .thir_box {
+    margin-top: 15%;
+  }
 }
 
 .footer {

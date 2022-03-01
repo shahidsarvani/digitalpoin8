@@ -19,7 +19,7 @@
       background-repeat: no-repeat;
       background-size: 70%;
       border-top-left-radius: 16px;
-      padding-bottom: 75px;
+      padding-bottom: 95px;
     }
     img {
       width: 160px;
@@ -65,4 +65,22 @@
 
 .thir_box {
   margin-top: 100%;
+}
+
+@media only screen and (min-width: 767px) {
+  .services {
+    .service_box {
+      .service_img {
+        background-size: 35% !important;
+        border-top-left-radius: 16px !important;
+        padding-bottom: 85px !important;
+      }
+    }
+    .sec_box {
+      margin-top: 15%;
+    }
+    .thir_box {
+      margin-top: 15%;
+    }
+  }
 }
