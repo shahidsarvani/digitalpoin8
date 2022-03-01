@@ -441,8 +441,9 @@ header {
 .projects_slider .slick-slide.right-slide.slick-active {
   border-radius: 20px;
   overflow: hidden;
-  background: #01161d;
-  background: linear-gradient(85deg, rgba(1, 22, 29, 0) 0%, #195051 100%, #195051 100%);
+  background: #195051;
+  background: -webkit-gradient(linear, left top, right top, from(#195051), color-stop(21%, #195051), to(rgba(1, 22, 29, 0.211922)));
+  background: linear-gradient(90deg, #195051 0%, #195051 21%, rgba(1, 22, 29, 0.211922) 100%);
 }
 
 .projects_slider .slick-slide.right-slide.slick-active .ar_wrap_projects {
@@ -457,4 +458,77 @@ header {
   margin-top: 10px;
   margin-left: 15px;
   margin-right: unset;
+}
+
+.project_wrap_inner {
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.project_on_main {
+  display: none;
+}
+
+.main-slide .project_on_main {
+  height: 450px;
+  border-radius: 20px;
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #195051;
+  background: -webkit-gradient(linear, left top, left bottom, from(#195051), color-stop(54%, #195051), to(#07272a));
+  background: linear-gradient(180deg, #195051 0%, #195051 54%, #07272a 100%);
+  overflow: hidden;
+}
+
+.main-slide .project_wrap_inner {
+  display: none;
+}
+
+.projects_slider .slick-list.draggable {
+  margin: 0px 50px;
+  padding: unset;
+}
+
+.projects_slider .slick-list.draggable .slick-slide {
+  margin: 15px;
+}
+
+.projects_slider .slick-track {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main_img_dp8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: 35px 0 0 35px !important;
+  width: 120px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.img_contain_main img {
+  position: absolute;
+  width: 280px;
+  right: 0px;
+  bottom: 0px;
 }
