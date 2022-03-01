@@ -83,28 +83,13 @@
   justify-content: center;
   align-items: center;
   margin-left: auto;
-  transition: 0.3s all;
+  transition: 250ms all ease-in;
 }
 
 .btn.btn-custom:hover {
   background-color: transparent;
   border: 2px solid #5dffe8;
   color: #5dffe8;
-}
-
-.social-icons ul {
-  list-style: none;
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 0;
-}
-
-.social-icons img {
-  width: 75%;
-}
-
-.footer {
-  background: rgb(26, 81, 83);
 }
 
 .what_we_do {

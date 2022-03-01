@@ -1,58 +1,70 @@
 .client_section {
-    min-height: 30vh;
-    background-image: linear-gradient(to right bottom, #194a4e, #133a41, #102b34, #0c1d25, #010e16);
+  min-height: 30vh;
+  background-image: linear-gradient(
+    to right bottom,
+    #194a4e,
+    #133a41,
+    #102b34,
+    #0c1d25,
+    #010e16
+  );
 }
 .dp_sec_heading {
-    font-size: 85px;
+  font-size: 85px;
+  text-transform: uppercase;
+  color: #fff;
+
+  span {
+    color: transparent;
     text-transform: uppercase;
-    color: #FFF;
-
-    span {
-        color: transparent;
-        text-transform: uppercase;
-        -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: #FFF;
-    }
-
+    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+  }
 }
 
 .client_slider {
-    .content_wrappeer {
-        padding: 20px;
-       
-        img {
-            width: 180px;
-            height: 90px;
-            object-fit: contain;
-            margin: 0 auto;
-        }
+  .content_wrappeer {
+    padding: 20px;
+
+    img {
+      width: 180px;
+      height: 90px;
+      object-fit: contain;
+      margin: 0 auto;
     }
-    .slick-slide {
-        border: 2px solid #14484B;
-        border-radius: 20px;
-        margin: 0px 10px;
-    }
+  }
+  .slick-slide {
+    border: 2px solid #14484b;
+    border-radius: 20px;
+    margin: 0px 10px;
+  }
 }
 
 .btn_dp8 {
-    min-width: 180px;
-    height: 35px;
-    background-color: transparent;
-    border: 2px solid #5DFFE8;
-    color: #5DFFE8;
-    font-size: 16px;
-    border-radius: 90px;
-    transition: 250ms all ease-in;
-    &:hover {
-        background-color: #5DFFE8;
-        color: #000;
-    }
+  min-width: 180px;
+  height: 35px;
+  background-color: transparent;
+  border: 2px solid #5dffe8;
+  color: #5dffe8;
+  font-size: 16px;
+  border-radius: 90px;
+  transition: 250ms all ease-in;
+  &:hover {
+    background-color: #5dffe8;
+    color: #000;
+  }
 }
 .dp_sectiion_para {
-    font-size: 16px;
-    color: #FFF;
-    text-align: center;
-    max-width: 700px;
-    margin: 0 auto;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .dp_sec_heading {
+    font-size: 35px;
+  }
 }
