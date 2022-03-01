@@ -1,0 +1,68 @@
+.custom-min-height {
+  min-height: 750px;
+}
+.services {
+  background-image: url("../images/services_bg.svg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  .service_box {
+    background: linear-gradient(
+      135.87deg,
+      #1a5153 2.28%,
+      rgba(26, 81, 83, 0.0520833) 71.8%,
+      rgba(26, 81, 83, 0) 75.62%
+    );
+    border-radius: 15px;
+    min-height: 375px;
+    .service_img {
+      background-image: url(../images/bg_rounded.svg);
+      background-repeat: no-repeat;
+      background-size: 70%;
+      border-top-left-radius: 16px;
+      padding-bottom: 75px;
+    }
+    img {
+      width: 160px;
+      margin-top: -45px;
+    }
+    .description_service {
+      padding: 10px 30px;
+      button.read_more_btn {
+        background-color: transparent;
+        border: none;
+        padding: 7px 18px;
+        color: #56ecd7;
+        font-size: 14px;
+        position: relative;
+      }
+      .read_more_btn::before {
+        content: "";
+        background-image: url("../images/curly_brace_left.svg");
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 15px;
+        height: 40px;
+        background-repeat: no-repeat;
+      }
+
+      .read_more_btn::after {
+        content: "";
+        background-image: url("../images/curly_brace_right.svg");
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 15px;
+        height: 40px;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}
+.sec_box {
+  margin-top: 50%;
+}
+
+.thir_box {
+  margin-top: 100%;
+}
