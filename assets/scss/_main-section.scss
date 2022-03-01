@@ -171,7 +171,7 @@
 
 @media only screen and (min-width: 767px) {
   .main_section {
-    min-height: 42vh;
+    min-height: 42vh !important;
   }
   .main_section .arrow_down {
     position: absolute;
@@ -200,5 +200,10 @@
       font-size: 25px;
       line-height: 0px;
     }
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .main_section {
+    min-height: 68vh;
   }
 }
