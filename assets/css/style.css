@@ -319,7 +319,7 @@ header {
 
 @media only screen and (max-width: 767px) {
   .main_section {
-    min-height: 42vh !important;
+    min-height: 42vh;
   }
   .main_section .arrow_down {
     position: absolute;
@@ -338,7 +338,7 @@ header {
   .content_inner_dp {
     padding-top: 65px;
   }
-  .content_inner_dp .mb-2 {
+  .content_inner_dp h2 {
     font-size: 35px;
     margin-bottom: 0 !important;
   }
@@ -840,4 +840,3 @@ header {
     padding: 0;
   }
 }
-/*# sourceMappingURL=style.css.map */
