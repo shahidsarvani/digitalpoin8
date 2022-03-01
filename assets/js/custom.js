@@ -56,6 +56,7 @@ $(document).ready(function () {
       speed: 300,
       slidesToShow: 3,
       adaptiveHeight: true,
+      centerPadding: '0px',
       //   infinite: false
       responsive: [
         {
