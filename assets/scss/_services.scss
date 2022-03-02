@@ -67,7 +67,7 @@
   margin-top: 100%;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (max-width: 767px) {
   .services {
     .service_box {
       .service_img {
@@ -77,10 +77,10 @@
       }
     }
     .sec_box {
-      margin-top: 15%;
+      margin-top: 20%;
     }
     .thir_box {
-      margin-top: 15%;
+      margin-top: 20%;
     }
   }
 }

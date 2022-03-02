@@ -326,8 +326,13 @@ header {
     top: 380%;
     left: -145px;
   }
+  .nav_menu_club p {
+    font-size: 13px;
+    line-height: 20px;
+  }
   .main_section .nav_menu_club {
-    right: 120px;
+    right: 50px;
+    top: 85px;
   }
   .main_section .nav_menu_club_2 {
     left: 35px;
@@ -335,15 +340,56 @@ header {
   .main_section .nav_menu_club_3 {
     right: 15px;
   }
+  .main_section .nav_menu_club h3 {
+    font-size: 18px;
+  }
+  .main_section .nav_menu_club p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .nav_menu_club img {
+    width: 80px;
+    margin-left: auto;
+  }
+  .nav_menu_club_2 img {
+    width: 80px;
+    margin-left: auto;
+  }
+  .nav_menu_club_3 img {
+    width: 80px;
+    margin-left: auto;
+  }
+  .main_section .nav_menu_club_2 {
+    left: -45px;
+    top: 100px;
+  }
+  .main_section .nav_menu_club_2 h3 {
+    font-size: 18px;
+  }
+  .main_section .nav_menu_club_2 p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .main_section .nav_menu_club_3 {
+    right: 20px;
+    top: 146px;
+  }
+  .main_section .nav_menu_club_3 h3 {
+    font-size: 18px;
+  }
+  .main_section .nav_menu_club_3 p {
+    font-size: 14px;
+    line-height: 20px;
+  }
   .content_inner_dp {
     padding-top: 65px;
   }
   .content_inner_dp h2 {
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 0 !important;
   }
   .content_inner_dp span {
-    font-size: 25px;
+    font-size: 22px;
     line-height: 0px;
   }
 }
@@ -561,6 +607,13 @@ header {
   background-size: contain;
 }
 
+@media only screen and (max-width: 767px) {
+  .max-width {
+    max-width: 95%;
+    margin: auto;
+  }
+}
+
 .projects_section {
   background-image: url("../images/bg_projects.svg");
   background-size: 100%;
@@ -713,6 +766,12 @@ header {
   .projects_slider {
     min-height: 0;
   }
+  .projects_wrappeer img {
+    width: 100%;
+  }
+  .project_on_main .main_img_dp8 {
+    width: 50%;
+  }
 }
 
 .custom-min-height {
@@ -787,17 +846,17 @@ header {
   margin-top: 100%;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (max-width: 767px) {
   .services .service_box .service_img {
     background-size: 35% !important;
     border-top-left-radius: 16px !important;
     padding-bottom: 85px !important;
   }
   .services .sec_box {
-    margin-top: 15%;
+    margin-top: 20%;
   }
   .services .thir_box {
-    margin-top: 15%;
+    margin-top: 20%;
   }
 }
 
@@ -840,3 +899,4 @@ header {
     padding: 0;
   }
 }
+/*# sourceMappingURL=style.css.map */
