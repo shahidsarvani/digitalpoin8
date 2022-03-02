@@ -131,6 +131,18 @@
   right: 0px;
   bottom: 0px;
 }
+
+@media only screen and (max-width: 1200px) {
+  .img_contain_main img {
+    position: absolute;
+    width: 150px;
+  }
+
+  .main-slide .project_on_main {
+    height: 300px !important;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .projects_wrappeer img {
     width: 70px;

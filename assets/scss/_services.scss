@@ -67,6 +67,15 @@
   margin-top: 100%;
 }
 
+@media only screen and (max-width: 1024px) {
+  .sec_box {
+    margin-top: 10%;
+  }
+  .thir_box {
+    margin-top: 10%;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .services {
     .service_box {
