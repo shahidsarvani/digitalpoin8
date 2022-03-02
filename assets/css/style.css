@@ -319,12 +319,35 @@ header {
 
 @media only screen and (max-width: 767px) {
   .main_section {
-    min-height: 42vh;
+    min-height: 34vh;
   }
   .main_section .arrow_down {
     position: absolute;
     top: 80px;
     left: -53px;
+  }
+  .arrow_down {
+    visibility: hidden;
+  }
+  .nav_menu_club_2 {
+    visibility: hidden;
+  }
+  .content_inner_dp h2 {
+    visibility: hidden;
+  }
+  .content_inner_dp span {
+    visibility: hidden;
+  }
+  .main-slide .project_on_main {
+    height: 400px;
+  }
+  .main_section .nav_menu_club {
+    visibility: hidden;
+  }
+  .main_section .nav_menu_club_3 {
+    right: 20px;
+    top: 146px;
+    visibility: hidden;
   }
   .main_section .arrow_down_ico {
     font-size: 16px;
@@ -623,6 +646,37 @@ header {
     max-width: 95%;
     margin: auto;
   }
+  .our_expertise .txt-neon {
+    color: transparent;
+    font-size: 55px;
+    line-height: 45px;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #0a9c88;
+  }
+  .our_expertise p {
+    width: 100% !important;
+  }
+  .we_inovate {
+    text-align: center;
+  }
+  .we_elevate {
+    text-align: center;
+  }
+  .we_create {
+    text-align: center;
+  }
+  .what_we_do p {
+    width: 100% !important;
+  }
+  .our_expertise .title-exp {
+    width: 100%;
+    color: #fff;
+  }
+  .custom-md-devices {
+    text-align: center;
+  }
 }
 
 .projects_section {
@@ -778,7 +832,7 @@ header {
     min-height: 0;
   }
   .projects_wrappeer img {
-    width: 100%;
+    width: 80%;
   }
   .project_on_main .main_img_dp8 {
     width: 50%;
@@ -908,6 +962,15 @@ header {
             justify-content: flex-start;
     margin-bottom: 0;
     padding: 0;
+  }
+  .footer .no-margin-bottom {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .footer .social-icons ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 /*# sourceMappingURL=style.css.map */

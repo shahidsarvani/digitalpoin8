@@ -109,4 +109,43 @@
     max-width: 95%;
     margin: auto;
   }
+
+  .our_expertise .txt-neon {
+    color: transparent;
+    font-size: 55px;
+    line-height: 45px;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #0a9c88;
+  }
+
+  .our_expertise p {
+    width: 100% !important;
+  }
+
+  .we_inovate {
+    text-align: center;
+  }
+
+  .we_elevate {
+    text-align: center;
+  }
+
+  .we_create {
+    text-align: center;
+  }
+
+  .what_we_do p {
+    width: 100% !important;
+  }
+
+  .our_expertise .title-exp {
+    width: 100%;
+    color: #fff;
+  }
+
+  .custom-md-devices {
+    text-align: center;
+  }
 }
