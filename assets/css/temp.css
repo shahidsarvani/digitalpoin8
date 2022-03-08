@@ -1,3 +1,86 @@
+form, .input-field-wrap{
+    position: relative;
+}
+.form-control, .form-control:focus{
+    color: #5dffe8;
+}
+form textarea{
+    background-color: transparent !important;
+    border-color: #184c4e;
+    border-radius: 50px;
+    border-width: 2px;
+}
+label {
+    position: absolute;
+    top: -20px;
+    left: 9px;
+    background-color: #5dffe8;
+    color: #010e16;
+    padding: 2px 5px;
+    border-radius: 50px;
+}
+input {
+    font-size: 20px;
+    position: relative;
+    bottom: 0;
+    transition: opacity 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+input:invalid + label {
+    top: -20px;
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+input:focus::-webkit-input-placeholder {
+    color: transparent !important;
+    transition: color 0.25s ease-in-out;
+}
+input:focus + label {
+    top: -20px;
+    opacity: 1;
+    transition: opacity 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+input:focus::-webkit-input-placeholder {
+    color: green;
+    font-weight: 100;
+    font-family: sans-serif;
+    transition: color 0.25s ease-in-out;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .projects_slider .slick-prev{
     display: none !important;
