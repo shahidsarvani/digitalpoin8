@@ -19,5 +19,28 @@
     position: absolute;
     top: 0;
     left: 0;
-    
+}
+.projects_slider .slick-slide .img_contain_main img{
+    display: none;
+}
+.projects_slider .slick-slide.slick-active.main-slide .img_contain_main img{
+    display: block;
+}
+.project-details-link{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+.project-details-link img{
+    width: 60px;
+}
+.projects_slider .projects_wrappeer{
+    padding-bottom: 30px;
+}
+.projects_slider .slick-slide .project-details-link{
+    display: none;
+}
+.projects_slider .slick-slide.slick-active.main-slide .project-details-link{
+    display: block;
 }

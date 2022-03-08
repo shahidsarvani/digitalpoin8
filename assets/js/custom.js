@@ -47,7 +47,7 @@ $(document).ready(function () {
         autoplay:true,
         autoplaySpeed:2000,
         dots: false,
-        arrows: true,
+        arrows: false,
         centerMode: true,
         speed: 300,
         slidesToShow: 3,
