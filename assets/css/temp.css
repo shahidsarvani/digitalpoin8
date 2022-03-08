@@ -128,9 +128,35 @@
     -o-transition:all .1s .3s; 
     transition:all .1s .3s;
 } */
-
+.btn-wrap{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -83px;
+}
+.primary-btn{
+    background-color: #5DFFE8;
+    padding: 12px 30px;
+    text-decoration: none;
+    color: #000;
+    border: 2px solid #5DFFE8;
+    border-radius: 50px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+}
+.primary-btn:hover{
+    background-color: transparent;
+    color: #5DFFE8;
+    border: 2px solid #5DFFE8;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+}
 .digital-image{
-    width: 465px;
+    width: 375px;
     max-width: 100%;
     margin-top: 80px;
     margin-bottom: -80px;
@@ -141,10 +167,33 @@
 }
 .main_section{
     background-image: url(../images/hero-bg.png) !important;
+    max-width: 1500px;
+    margin: 0 auto;
+    background-position: bottom -50px center;
+    height: auto;
+    min-height: auto !important;
 }
-
-
-
+section{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.content_inner_dp{
+    padding-bottom: 150px;
+}
+.main_section .inner-row{
+    position: relative;
+}
+.main_section .nav_menu_club{
+    top: 40px !important;
+}
+.main_section .nav_menu_club_2{
+    top: unset !important;
+    bottom: 110px;
+}
+.main_section .nav_menu_club_3{
+    top: unset !important;
+    bottom: 0;
+}
 
 @media (max-width: 1400px) and (min-width: 1100px) {
     .content_inner_dp{
@@ -158,7 +207,7 @@
         font-size: 40px;
         line-height: 40px;
     }
-    .main_section .nav_menu_club{
+    /* .main_section .nav_menu_club{
         top: 145px;
     }
     .main_section .nav_menu_club_2{
@@ -166,5 +215,5 @@
     }
     .main_section .nav_menu_club_3{
         top: 390px;
-    }
+    } */
 }
