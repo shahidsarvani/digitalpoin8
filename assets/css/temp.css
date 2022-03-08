@@ -136,8 +136,12 @@
     margin-bottom: -80px;
     margin-left: 50px;
 }
-
-
+.main_section .arrow_down{
+    top: 45% !important;
+}
+.main_section{
+    background-image: url(../images/hero-bg.png) !important;
+}
 
 
 
