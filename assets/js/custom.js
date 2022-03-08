@@ -1,5 +1,7 @@
 $(document).ready(function () {
     $('.client_slider').slick({
+      autoplay:true,
+      autoplaySpeed:2000,
       dots: false,
       arrows: false,
       infinite: true,
@@ -42,8 +44,10 @@ $(document).ready(function () {
     })
     $('.projects_slider')
       .slick({
+        autoplay:true,
+        autoplaySpeed:2000,
         dots: false,
-        arrows: false,
+        arrows: true,
         centerMode: true,
         speed: 300,
         slidesToShow: 3,

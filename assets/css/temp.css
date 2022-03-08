@@ -1,0 +1,23 @@
+.projects_slider .slick-prev{
+    display: none !important;
+}
+.projects_slider .slick-next{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/slider-next-btn.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    color: transparent;
+    left: 48%;
+    bottom: 48px;
+}
+.projects_slider .slick-next::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
