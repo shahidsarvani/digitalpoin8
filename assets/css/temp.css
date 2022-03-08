@@ -1,3 +1,4 @@
+
 .projects_slider .slick-prev{
     display: none !important;
 }
@@ -44,3 +45,86 @@
 .projects_slider .slick-slide.slick-active.main-slide .project-details-link{
     display: block;
 }
+
+/* btn-10 */
+.btn-10 a{
+    padding:0;
+}
+.btn-10 a span{
+    display:block; 
+    padding:0 30px;
+}
+.navbar_dp .nav_cp_dp .navbar-nav .nav-item .nav-link:hover{
+    -webkit-transition: .5s all ease-in;
+    transition: .5s all ease-in;
+}
+.navbar_dp .nav_cp_dp .navbar-nav .nav-item .nav-link{
+    -webkit-transition: .5s all ease-in !important;
+    transition: .5s all ease-in !important;
+}
+/* .btn-10 a{
+    position: relative;
+}
+.btn-10 a:before, .btn-10 a:after, .btn-10 a span:before, .btn-10 a span:after{
+    position:absolute; 
+    background-color:#ffe800;
+}
+.btn-10 a:before, .btn-10 a:after, .btn-10 a span:before, .btn-10 a span:after{content:""; display:block;}
+.btn-10 a:before{
+    width:1px; 
+    height:0; 
+    left:0; 
+    bottom:0; 
+    -webkit-transition:all .1s .3s; 
+    -o-transition:all .1s .3s; 
+    transition:all .1s .3s;}
+.btn-10 a:after{
+    width:0; 
+    height:1px; 
+    left:0; 
+    top:0; 
+    -webkit-transition:all .1s .2s; 
+    -o-transition:all .1s .2s; 
+    transition:all .1s .2s;
+}
+.btn-10 a span:before{
+    width:1px; 
+    height:0; 
+    right:0; top:0; 
+    -webkit-transition:all .1s .1s; 
+    -o-transition:all .1s .1s; 
+    transition:all .1s .1s;
+}
+.btn-10 a span:after{
+    width:0; 
+    height:1px; 
+    right:0; 
+    bottom:0; 
+    -webkit-transition:all .1s; 
+    -o-transition:all .1s; 
+    transition:all .1s;
+}
+.btn-10 a:hover:before{
+    height:100%; 
+    -webkit-transition:all .1s; 
+    -o-transition:all .1s;	
+    transition:all .1s;
+}
+.btn-10 a:hover:after{
+    width:100%; 
+    -webkit-transition:all .1s .1s; 
+    -o-transition:all .1s .1s; 
+    transition:all .1s .1s;
+}
+.btn-10 a:hover span:before{
+    height:100%; 
+    -webkit-transition:all .1s .2s; 
+    -o-transition:all .1s .2s; 
+    transition:all .1s .2s;
+}
+.btn-10 a:hover span:after{
+    width:100%;	
+    -webkit-transition:all .1s .3s;	
+    -o-transition:all .1s .3s; 
+    transition:all .1s .3s;
+} */

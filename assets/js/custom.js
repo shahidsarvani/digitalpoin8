@@ -3,6 +3,7 @@ $(document).ready(function () {
       autoplay:true,
       autoplaySpeed:2000,
       dots: false,
+      pauseOnHover: true,
       arrows: false,
       infinite: true,
       centerMode: true,
@@ -46,6 +47,7 @@ $(document).ready(function () {
       .slick({
         autoplay:true,
         autoplaySpeed:2000,
+        pauseOnHover: true,
         dots: false,
         arrows: false,
         centerMode: true,
