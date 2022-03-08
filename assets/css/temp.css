@@ -128,3 +128,39 @@
     -o-transition:all .1s .3s; 
     transition:all .1s .3s;
 } */
+
+.digital-image{
+    width: 465px;
+    max-width: 100%;
+    margin-top: 80px;
+    margin-bottom: -80px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+@media (max-width: 1400px) and (min-width: 1100px) {
+    .content_inner_dp{
+        padding-top: 100px;
+    }
+    .content_inner_dp h2{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .content_inner_dp span{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .main_section .nav_menu_club{
+        top: 145px;
+    }
+    .main_section .nav_menu_club_2{
+        top: 250px;
+    }
+    .main_section .nav_menu_club_3{
+        top: 390px;
+    }
+}
