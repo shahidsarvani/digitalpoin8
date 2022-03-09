@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  $('.home-select2').select2();
     $('.client_slider').slick({
       autoplay:true,
       autoplaySpeed:2000,

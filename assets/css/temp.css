@@ -4,11 +4,50 @@ form, .input-field-wrap{
 .form-control, .form-control:focus{
     color: #5dffe8;
 }
+.input-filed{
+    margin-bottom: 20px;
+}
 form textarea{
     background-color: transparent !important;
     border-color: #184c4e;
     border-radius: 50px;
     border-width: 2px;
+}
+.select2-selection--single{
+    background-color: transparent !important;
+    border: 2px solid #184c4e !important;
+    border-radius: 50px !important;
+    color: #5dffe8 !important;
+    padding: 5px !important;
+    height: 41px !important;
+}
+.select2-container--default .select2-results__option--selected{
+    background-color: #5dffe8;
+    color: #010e16;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b{
+    border-color: #5dffe8 transparent transparent transparent;
+}
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b{
+    border-color: transparent transparent #5dffe8 transparent;
+}
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable{
+    background-color: #5dffe8;
+    color: #010e16;
+}
+.select2-results__option--selectable{
+    color: #5dffe8;
+}
+.select2-dropdown{
+    background-color: #010e16;
+    border: 1px solid #5dffe8;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    height: 41px !important;
+    right: 10px !important;
+}
+.select2-selection__rendered{
+    color: #5dffe8 !important;
 }
 label {
     position: absolute;
