@@ -7,6 +7,12 @@ form, .input-field-wrap{
 .input-filed{
     margin-bottom: 20px;
 }
+.select2-search--dropdown{
+    padding: 0;
+}
+.select2-search--dropdown .select2-search__field{
+    display: none;
+}
 form textarea{
     background-color: transparent !important;
     border-color: #184c4e;
@@ -84,8 +90,11 @@ input:focus::-webkit-input-placeholder {
     font-family: sans-serif;
     transition: color 0.25s ease-in-out;
 }
-
-  
+.select2-selection--single:focus{
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
 
 
 
@@ -338,4 +347,9 @@ section{
     .main_section .nav_menu_club_3{
         top: 390px;
     } */
+}
+@media (max-width: 550px) {
+    .digital-image{
+        width: 220px;
+    }
 }
