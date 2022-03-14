@@ -37,33 +37,20 @@
         position: relative;
         display: flex;
         align-items: center;
-        justify-content: center;
-        transition: transform 250ms ease-in;
-
-        &:hover {
-          transform: scaleX(1.1);
+        justify-content: space-between;
+        transition: all 250ms ease-in;
+        span {
+          margin-top: 5px;
         }
-      }
-      .read_more_btn::before {
-        content: "";
-        background-image: url("../images/curly_brace_left.svg");
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 15px;
-        height: 40px;
-        background-repeat: no-repeat;
-      }
-
-      .read_more_btn::after {
-        content: "";
-        background-image: url("../images/curly_brace_right.svg");
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: 15px;
-        height: 40px;
-        background-repeat: no-repeat;
+         .contain_btn {
+          font-size: 35px;
+          color: #1d7165;
+          line-height: 30px;
+          margin-top: 0px;
+        }
+        &:hover {
+          width: 130px;
+        }
       }
     }
   }
