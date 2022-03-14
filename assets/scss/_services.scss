@@ -30,10 +30,19 @@
       button.read_more_btn {
         background-color: transparent;
         border: none;
-        padding: 7px 18px;
+        width: 100px;
+        height: 35px;
         color: #56ecd7;
         font-size: 14px;
         position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 250ms ease-in;
+
+        &:hover {
+          transform: scaleX(1.1);
+        }
       }
       .read_more_btn::before {
         content: "";
