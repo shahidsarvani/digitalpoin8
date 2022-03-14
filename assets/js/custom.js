@@ -1,6 +1,10 @@
 $(document).ready(function () {
+  $('.home-select2').select2();
     $('.client_slider').slick({
+      autoplay:true,
+      autoplaySpeed:2000,
       dots: false,
+      pauseOnHover: true,
       arrows: false,
       infinite: true,
       centerMode: true,
@@ -42,6 +46,9 @@ $(document).ready(function () {
     })
     $('.projects_slider')
       .slick({
+        autoplay:true,
+        autoplaySpeed:2000,
+        pauseOnHover: true,
         dots: false,
         arrows: false,
         centerMode: true,

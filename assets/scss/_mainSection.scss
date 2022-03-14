@@ -168,15 +168,55 @@
     -webkit-text-stroke-color: rgb(123, 244, 255);
   }
 }
+
+@media only screen and (max-width: 1400px) {
+  .main_section {
+    min-height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .main_section {
+    min-height: 100vh;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .main_section {
     min-height: 56vh;
   }
-}
+  .main_section .nav_menu_club {
+    position: absolute;
+    width: 176px;
+    height: 48px;
+    top: 140px;
+    right: 85px;
+  }
+  .main_section .nav_menu_club_2 {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+  }
 
+  .main_section .nav_menu_club_3 {
+    position: absolute;
+    top: 310px;
+    right: 45px;
+  }
+
+  .main_section .arrow_down {
+    position: absolute;
+    top: 180%;
+    left: -100px;
+  }
+
+  .client_slider .content_wrappeer img {
+    width: 130px !important;
+  }
+}
 @media only screen and (max-width: 767px) {
   .main_section {
-    min-height: 34vh;
+    min-height: 42vh;
   }
   .main_section .arrow_down {
     position: absolute;
@@ -200,7 +240,7 @@
   }
 
   .main-slide .project_on_main {
-    height: 400px;
+    height: 350px !important;
   }
   .main_section .nav_menu_club {
     visibility: hidden;
