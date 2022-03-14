@@ -97,11 +97,18 @@
   color: #5dffe8;
 }
 
-.what_we_do {
+/*  .what_we_do {
   background-image: url("../images/what_we_do.png");
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
+}
+*/
+.what_we_do {
+  background-image: url("../images/vr_bg.gif");
+  background-repeat: no-repeat;
+  background-position: right 80%;
+  background-size: 300px;
 }
 
 @media only screen and (max-width: 767px) {
