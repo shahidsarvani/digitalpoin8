@@ -154,12 +154,16 @@ header {
           transform: rotate(90deg);
   right: 150px;
   top: -75px;
-  -webkit-animation: bounce 2s  infinite;
-          animation: bounce 2s  infinite;
+  -webkit-animation: bounce 2s infinite;
+          animation: bounce 2s infinite;
 }
 
 @-webkit-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     -webkit-transform: translateX(0) rotate(90deg);
             transform: translateX(0) rotate(90deg);
   }
@@ -174,7 +178,11 @@ header {
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     -webkit-transform: translateX(0) rotate(90deg);
             transform: translateX(0) rotate(90deg);
   }
@@ -1139,3 +1147,4 @@ header {
             justify-content: center;
   }
 }
+/*# sourceMappingURL=style.css.map */
