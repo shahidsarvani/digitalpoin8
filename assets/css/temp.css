@@ -325,6 +325,32 @@ section{
     top: unset !important;
     bottom: 0;
 }
+.mobile-nav-close{
+    display: none;
+    position: absolute;
+    color: #fff;
+    right: 20px;
+    top: 25px;
+    font-size: 30px;
+}
+.mobile-nav-close-btn{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    transform: rotate(0deg);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.mobile-nav-close-btn:hover{
+    transform: rotate(360deg);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
 
 @media (max-width: 1400px) and (min-width: 1100px) {
     .content_inner_dp{
@@ -351,5 +377,31 @@ section{
 @media (max-width: 550px) {
     .digital-image{
         width: 220px;
+    }
+    .logo_dp8{
+        width: 50%;
+        z-index: 9999;
+    }
+    .navbar{
+        position: inherit;
+        width: 50%;
+        justify-content: flex-end;
+    }
+    .navbar-collapse{
+        flex-basis: unset !important;
+        flex-grow: unset;
+        align-items: unset;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        background-color: #010e16;
+    }
+    .navbar-nav{
+        margin-top: 75px;
+    }
+    .mobile-nav-close{
+        display: block;
     }
 }

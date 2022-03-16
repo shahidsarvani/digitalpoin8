@@ -1,4 +1,7 @@
 $(document).ready(function () {
+  $(".mobile-nav-close-btn").click(function(){
+    $("#collapsibleNavbar").removeClass("show");
+  });
   $('.home-select2').select2();
     $('.client_slider').slick({
       autoplay:true,
