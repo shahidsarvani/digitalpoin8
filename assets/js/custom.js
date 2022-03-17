@@ -1,4 +1,30 @@
 $(document).ready(function () {
+
+  $(".link_accordion").click(function(){
+    var element = $(this).attr('id');
+    var ifactive = $(this).parent().hasClass("active");
+    if(ifactive) {
+      console.log(this);
+      $('.' + element).hide();
+      $('#' + element ).parent().removeClass("active");
+    }
+
+    if(!ifactive) {
+      $('.platforms-supported ul li').removeClass('active');
+      $('#' + element).parent().addClass("active");
+      $('.accordion_content_single').hide();
+      $('.' + element).show();
+
+    }
+  });
+  $(".close_content").click(function(){ 
+    console.log("closed");
+    $('.platforms-supported ul li').removeClass('active');
+    $(this).closest(".accordion_content_single").hide();
+  });
+  
+
+
   $(".navbar-toggler").click(function(){
     $(".logo_dp8").addClass("opened");
   });
