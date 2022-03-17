@@ -132,6 +132,26 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+  .main-slide .project_on_main{
+    height: 250px !important;
+  }
+  .img_contain_main img{
+    width: 120px;
+  }
+}
+
+@media (max-width: 992px) {
+  .services {
+    .service_box {
+      .service_img {
+        background-size: 35% !important;
+        padding-bottom: 60px !important;
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .first-box{
     margin-top: 55px;

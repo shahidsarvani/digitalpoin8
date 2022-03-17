@@ -614,6 +614,24 @@ section {
   }
 }
 
+@media (max-width: 992px) {
+  .main_section .arrow_down {
+    left: -75px;
+  }
+  .content_inner_dp h2 {
+    font-size: 70px;
+  }
+  .content_inner_dp span {
+    font-size: 45px;
+  }
+  .main_section .nav_menu_club_2 h3, .main_section .nav_menu_club h3, .main_section .nav_menu_club_3 h3 {
+    font-size: 24px;
+  }
+  .main_section .nav_menu_club_2 p, .main_section .nav_menu_club p, .main_section .nav_menu_club_3 p {
+    font-size: 16px;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .main_section {
     min-height: 42vh;
@@ -787,6 +805,12 @@ section {
   text-align: center;
   max-width: 700px;
   margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+  .dp_sec_heading {
+    font-size: 60px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -1373,6 +1397,12 @@ input:focus::-webkit-input-placeholder {
   }
 }
 
+@media only screen and (max-width: 992px) {
+  .section-padding {
+    padding-top: 40px;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .projects_section .dp_sectiion_para {
     margin-bottom: 20px;
@@ -1540,6 +1570,22 @@ input:focus::-webkit-input-placeholder {
   }
   .thir_box {
     margin-top: 10%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .main-slide .project_on_main {
+    height: 250px !important;
+  }
+  .img_contain_main img {
+    width: 120px;
+  }
+}
+
+@media (max-width: 992px) {
+  .services .service_box .service_img {
+    background-size: 35% !important;
+    padding-bottom: 60px !important;
   }
 }
 
