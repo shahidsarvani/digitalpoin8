@@ -1948,4 +1948,48 @@ section.banner_services .dp_sec_service {
     min-height: 320px;
   }
 }
+
+img, svg {
+  max-width: 100%;
+}
+
+.what_we_do_col {
+  background-image: url(../images/what-we-do-hero.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.what-we-contact {
+  background-image: url(../images/what-we-contact.svg);
+  background-position: bottom 50px left 30px;
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+
+.what-we-do-content-wrap h3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 95px;
+  color: #fff;
+}
+
+.what-we-do-content-wrap p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .what-we-do-content-wrap h3 {
+    font-size: 40px;
+    line-height: 75px;
+  }
+  .what-we-do-content-wrap p {
+    font-size: 16px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
