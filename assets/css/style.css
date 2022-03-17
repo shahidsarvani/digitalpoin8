@@ -1932,8 +1932,59 @@ section.banner_services .dp_sec_service {
   font-size: 90px;
 }
 
+.services-button-wrap {
+  position: relative;
+}
+
+.services-button-wrap img {
+  max-width: 550px;
+}
+
+.services-btn {
+  position: absolute;
+  bottom: 60px;
+  left: 140px;
+  right: 0;
+  max-width: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.dp_sec_heading {
+  line-height: 59px;
+}
+
+.services-details-wrap {
+  max-width: 411px;
+}
+
+.services-details-wrap .txt-neon {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 93.9455px;
+  line-height: 79px;
+}
+
+.services-details-wrap .title-exp {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 45px;
+  margin-bottom: 30px;
+}
+
+.services-details-wrap .platforms-supported {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  max-width: 338px;
+}
+
 .experimental_club .services_para_txt {
-  padding-left: 80px !important;
+  padding-left: 125px !important;
+  padding-top: 30px;
 }
 
 .experimental_club .services_para_txt::before {
@@ -1941,11 +1992,11 @@ section.banner_services .dp_sec_service {
   background-image: url(../images/Subtract.svg);
   background-repeat: no-repeat;
   background-size: 100%;
-  width: 80px;
-  height: 2px;
+  width: 125px;
+  height: 4px;
   position: absolute;
   left: -5px;
-  top: 12px;
+  top: 40px;
 }
 
 .experimental_club .spaceship_bg {
@@ -1972,6 +2023,86 @@ section.banner_services .dp_sec_service {
   margin-top: auto;
   margin-bottom: 35px;
   margin-left: 45px;
+}
+
+.experimental_container, .interactive_container, .arvr_container {
+  margin-bottom: 70px;
+}
+
+@media (max-width: 1200px) {
+  section.banner_services .dp_sec_service {
+    font-size: 80px;
+  }
+  .experimental_club .services-button-wrap img {
+    max-width: 450px;
+  }
+  .experimental_club .dp_sec_heading {
+    font-size: 64px;
+    line-height: 44px;
+  }
+  .experimental_club .services_para_txt::before {
+    width: 93px;
+  }
+  .experimental_club .services_para_txt {
+    padding-left: 93px !important;
+  }
+  .services-details-wrap .txt-neon {
+    font-size: 62px;
+    line-height: 50px;
+  }
+  .services-details-wrap .title-exp {
+    font-size: 34px;
+    line-height: 34px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .services-button-wrap {
+    margin-bottom: 50px;
+  }
+  .mob-txt-left.align-items-center {
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+  }
+  .experimental_club .dp_sec_heading {
+    font-size: 45px;
+    line-height: 30px;
+  }
+  .experimental_club .services_para_txt::before {
+    width: 93px;
+  }
+  .experimental_club .services_para_txt {
+    padding-left: 93px !important;
+  }
+  .services-details-wrap .title-exp {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  section.banner_services .dp_sec_service {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  section.banner_services .dp_sec_service {
+    font-size: 55px;
+    line-height: 39px;
+  }
+  .experimental_club .services-button-wrap img {
+    max-width: 100%;
+  }
+  .services-btn {
+    bottom: 20px;
+    left: 134px;
+    max-width: 188px;
+  }
+  .experimental_club .services_para_txt::before {
+    width: 70px;
+  }
+  .experimental_club .services_para_txt {
+    padding-left: 70px !important;
+  }
 }
 
 img, svg {
