@@ -1884,4 +1884,7 @@ input:focus::-webkit-input-placeholder {
   .our_projects .img_contain_main img {
     width: 280px;
   }
+  .expertise_content_inner {
+    min-height: 320px;
+  }
 }
