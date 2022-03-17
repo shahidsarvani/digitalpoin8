@@ -1817,6 +1817,7 @@ input:focus::-webkit-input-placeholder {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
+  cursor: pointer;
   overflow: hidden;
 }
 
@@ -1862,6 +1863,56 @@ input:focus::-webkit-input-placeholder {
 
 .our_projects .project_wrap_inner {
   display: none;
+}
+
+.project-modal .modal-dialog {
+  max-width: 1320px;
+}
+
+.project-modal .modal-dialog .modal-content {
+  background-color: #01161D;
+  border-radius: 20px;
+}
+
+.project-modal .modal-dialog .modal-content .modal-header {
+  border: 0;
+}
+
+.project-modal .modal-dialog .modal-content .modal-header .btn-close {
+  width: 18px;
+  height: 18px;
+  color: #fff;
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+  opacity: 1;
+}
+
+.project-modal .modal-dialog .modal-body {
+  padding: 0 50px 50px 50px;
+}
+
+.project-modal-img {
+  border: 20px solid #ccc;
+  border-radius: 20px;
+  max-height: 620px !important;
+  overflow: auto;
+}
+
+.project-modal-content {
+  padding: 0 20px;
+}
+
+.project-modal-content h2 {
+  font-family: "SF Compact Display Medium";
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.project-modal-content p {
+  color: #fff;
 }
 
 .projects_col {
