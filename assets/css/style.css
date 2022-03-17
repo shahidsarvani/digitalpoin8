@@ -1910,6 +1910,10 @@ input:focus::-webkit-input-placeholder {
   font-weight: 300;
 }
 
+.chain_bg {
+  background-image: url("../images/chain_link.svg");
+}
+
 section.banner_services {
   min-height: 130vh;
   display: -webkit-box;
