@@ -1799,3 +1799,92 @@ input:focus::-webkit-input-placeholder {
     line-height: 18px;
   }
 }
+
+.our_projects .projects_wrappeer {
+  position: relative;
+  min-height: 220px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  overflow: hidden;
+}
+
+.our_projects .projects_wrappeer .ar_wrap_projects {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: #fff;
+  background-image: url("../images/ar_bg.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+  background-size: 100%;
+}
+
+.our_projects .projects_wrappeer .ar_wrap_projects h3 {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.our_projects .projects_wrappeer img {
+  margin: 0 auto;
+}
+
+.our_projects .project_on_main {
+  height: 450px;
+  border-radius: 20px;
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #195051;
+  background: -webkit-gradient(linear, left top, left bottom, from(#195051), color-stop(54%, #195051), to(#07272a));
+  background: linear-gradient(180deg, #195051 0%, #195051 54%, #07272a 100%);
+  overflow: hidden;
+}
+
+.our_projects .project_wrap_inner {
+  display: none;
+}
+
+.projects_col {
+  background-image: url("../images/our-projects.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  .expertise_section {
+    background-image: url("../images/expertise_bg.png");
+    background-size: cover;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background-position: bottom right;
+  }
+  .our_projects .main_img_dp8 {
+    width: auto;
+  }
+  .our_projects .img_contain_main img {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 1180px) and (min-width: 768px) {
+  .our_projects .img_contain_main img {
+    width: 280px;
+  }
+  .expertise_section {
+    background-image: url("../images/expertise_bg.png");
+    background-size: cover;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background-position: bottom right;
+  }
+}
