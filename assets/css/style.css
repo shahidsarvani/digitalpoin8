@@ -1811,66 +1811,6 @@ input:focus::-webkit-input-placeholder {
   }
 }
 
-section.banner_services {
-  min-height: 130vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-image: url("../images/bg_services.svg");
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 100%;
-}
-
-section.banner_services .dp_sec_service {
-  font-size: 90px;
-}
-
-.experimental_club .services_para_txt {
-  padding-left: 80px !important;
-}
-
-.experimental_club .services_para_txt::before {
-  content: "";
-  background-image: url(../images/Subtract.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  width: 80px;
-  height: 2px;
-  position: absolute;
-  left: -5px;
-  top: 12px;
-}
-
-.experimental_club .spaceship_bg {
-  background-image: url(../images/spaceship.svg);
-  background-repeat: no-repeat;
-  background-size: 70%;
-  background-position: center;
-}
-
-.experimental_club .button-bottom .hero-btn.primary-btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  margin-top: auto;
-}
-
-.experimental_club .button-bottom {
-  margin-top: auto;
-  margin-bottom: 35px;
-  margin-left: 45px;
-}
-
 .our_projects .projects_wrappeer {
   position: relative;
   min-height: 220px;
@@ -1949,6 +1889,91 @@ section.banner_services .dp_sec_service {
   }
 }
 
+.detail_contact {
+  padding-bottom: 170px;
+  background-image: url("../images/contact_page.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 100px;
+}
+
+.contact_inner h2 {
+  color: #FFF;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.contact_inner p {
+  font-size: 18px;
+  color: #FFF;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.chain_bg {
+  background-image: url("../images/chain_link.svg");
+}
+
+section.banner_services {
+  min-height: 130vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../images/bg_services.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+}
+
+section.banner_services .dp_sec_service {
+  font-size: 90px;
+}
+
+.experimental_club .services_para_txt {
+  padding-left: 80px !important;
+}
+
+.experimental_club .services_para_txt::before {
+  content: "";
+  background-image: url(../images/Subtract.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 80px;
+  height: 2px;
+  position: absolute;
+  left: -5px;
+  top: 12px;
+}
+
+.experimental_club .spaceship_bg {
+  background-image: url(../images/spaceship.svg);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+}
+
+.experimental_club .button-bottom .hero-btn.primary-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: auto;
+}
+
+.experimental_club .button-bottom {
+  margin-top: auto;
+  margin-bottom: 35px;
+  margin-left: 45px;
+}
+
 img, svg {
   max-width: 100%;
 }
@@ -1992,4 +2017,3 @@ img, svg {
     font-size: 16px;
   }
 }
-/*# sourceMappingURL=style.css.map */
