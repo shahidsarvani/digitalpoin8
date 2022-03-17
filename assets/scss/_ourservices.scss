@@ -1,0 +1,15 @@
+section.banner_services {
+  min-height: 130vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../images/bg_services.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+
+  .dp_sec_service {
+    font-size: 90px;
+  }
+}
+
+@import "_experimentalclub.scss";
