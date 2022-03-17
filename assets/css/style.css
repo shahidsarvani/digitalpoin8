@@ -1798,4 +1798,8 @@ input:focus::-webkit-input-placeholder {
     font-size: 12px;
     line-height: 18px;
   }
+  .expertise_section {
+    background-size: cover;
+    background-position: bottom right;
+  }
 }
