@@ -128,7 +128,14 @@
     }
 }
 
+@media(max-width: 1200px) {
 
+    .expertise_section {
+        background-size: cover;
+        background-position: bottom right;
+    }
+
+}
 
 @media(max-width: 767px) {
     .expertise_content_inner {
