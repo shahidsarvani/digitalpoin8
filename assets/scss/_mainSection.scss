@@ -27,18 +27,22 @@
     transform: rotate(90deg);
     right: 150px;
     top: -75px;
-    animation:bounce 2s  infinite;
+    animation: bounce 2s infinite;
   }
- 
+
   @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateX(0)  rotate(90deg);
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateX(0) rotate(90deg);
     }
     40% {
-      transform: translateX(-30px)  rotate(90deg);
+      transform: translateX(-30px) rotate(90deg);
     }
     60% {
-      transform: translateX(-15px)  rotate(90deg);
+      transform: translateX(-15px) rotate(90deg);
     }
   }
 
