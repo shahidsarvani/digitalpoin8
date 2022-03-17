@@ -1074,6 +1074,11 @@ input:focus::-webkit-input-placeholder {
   width: 100% !important;
 }
 
+.exp-section-padding, .cont-section-padding {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 @media (max-width: 1400px) and (min-width: 1100px) {
   .content_inner_dp {
     padding-top: 100px;
@@ -1089,6 +1094,16 @@ input:focus::-webkit-input-placeholder {
 }
 
 @media only screen and (max-width: 767px) {
+  .what_we_do .btn_dp8 {
+    margin-top: 30px;
+  }
+  .our_expertise {
+    padding-bottom: 0 !important;
+    margin-bottom: -55px;
+  }
+  .cont-section-padding {
+    padding-top: 0 !important;
+  }
   .txt-neon {
     margin-bottom: 10px;
   }
@@ -1359,6 +1374,9 @@ input:focus::-webkit-input-placeholder {
 }
 
 @media only screen and (max-width: 767px) {
+  .projects_section .dp_sectiion_para {
+    margin-bottom: 20px;
+  }
   .project-details-link img {
     width: 70px !important;
   }
