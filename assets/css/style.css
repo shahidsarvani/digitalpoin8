@@ -1944,5 +1944,8 @@ section.banner_services .dp_sec_service {
   .our_projects .img_contain_main img {
     width: 280px;
   }
+  .expertise_content_inner {
+    min-height: 320px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
