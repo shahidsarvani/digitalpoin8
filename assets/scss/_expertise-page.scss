@@ -1,11 +1,13 @@
 .expertise_section {
     background-image: url("../images/expertise_bg.png");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+    padding-top: 120px;
+    padding-bottom: 80px;
 
 }
 .expertise_content_inner {
-    padding-top: 120px;
+    min-height: 450px;
     h2 {
         color: #FFF;
         font-size: 85px;
@@ -29,5 +31,132 @@
         color: #FFFFFF;
         width: 75%;
         margin-bottom: 30px;
+    }
+}
+
+.expertise_col {
+    background-image: url("../images/ar_expertise.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.acordion_outter_control {
+    .txt-neon {
+        color: transparent;
+        font-size: 55px;
+        line-height: 45px;
+        text-transform: uppercase;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #14484b;
+    }
+    .title-exp {
+        color: #fff;
+        font-size: 36px;
+        line-height: 30px;
+    
+        strong {
+            font-size: 40px;
+        }
+    }
+    .platforms-supported {
+        ul {
+            list-style: none;
+            padding: 0;
+            li {
+
+                a {
+                color: #5dffe8;
+                text-decoration: none;
+                transition: 250ms all ease-in;
+
+                &:hover {
+                    opacity: 0.7;
+                }
+                }
+                
+
+                &:before {
+                    content: "\002B";
+                    font-size: 20px;
+                    margin-right: 6px;
+                    color: #0c3539;
+                }
+            }
+            .active {
+                &::before {
+                    content: "\2212";
+                }
+            }
+        }
+    }
+}
+
+.accordion_content_single {
+    background-color: #FFF;
+    padding: 35px;
+    box-shadow: 0px 4px 10px #000000;
+    border-radius: 20px;
+    display: none;
+
+    .close_outter { 
+        h2 {
+            font-style: normal;
+            font-weight: 900;
+            font-size: 30px;
+            line-height: 31px;
+            text-transform: uppercase;
+            color: #000000;
+            margin-bottom: 20px;
+        }
+        a {
+            cursor: pointer;
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+        
+    }
+    p {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+    }
+}
+
+@media(max-width: 1200px) {
+
+    .expertise_section {
+        background-size: cover;
+        background-position: bottom right;
+    }
+
+}
+
+@media(max-width: 767px) {
+    .expertise_content_inner {
+        min-height: auto;
+            h2 {
+                font-size: 55px;
+                line-height: 41px;
+                margin-bottom: 20px;
+            }
+        
+       
+        p {
+            width: 100%;
+            margin-bottom: 20px;
+            font-size: 12px;
+            line-height: 18px;
+        }
+        
+    }
+    .expertise_section {
+        background-size: cover;
+        background-position: bottom right;
     }
 }
