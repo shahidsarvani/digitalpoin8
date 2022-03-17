@@ -1147,4 +1147,39 @@ header {
             justify-content: center;
   }
 }
-/*# sourceMappingURL=style.css.map */
+
+.expertise_section {
+  background-image: url("../images/expertise_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.expertise_content_inner {
+  padding-top: 120px;
+}
+
+.expertise_content_inner h2 {
+  color: #FFF;
+  font-size: 85px;
+  text-transform: uppercase;
+  line-height: 59px;
+  margin-bottom: 30px;
+}
+
+.expertise_content_inner h2 span {
+  color: transparent;
+  text-transform: uppercase;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+}
+
+.expertise_content_inner p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+  width: 75%;
+  margin-bottom: 30px;
+}
