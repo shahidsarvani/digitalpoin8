@@ -1,6 +1,10 @@
 $(document).ready(function () {
+  $(".navbar-toggler").click(function(){
+    $(".logo_dp8").addClass("opened");
+  });
   $(".mobile-nav-close-btn").click(function(){
     $("#collapsibleNavbar").removeClass("show");
+    $(".logo_dp8").removeClass("opened");
   });
   $('.home-select2').select2();
     $('.client_slider').slick({
