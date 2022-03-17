@@ -133,12 +133,15 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .first-box{
+    margin-top: 55px;
+  }
   .services {
     .service_box {
       .service_img {
         background-size: 35% !important;
         border-top-left-radius: 16px !important;
-        padding-bottom: 85px !important;
+        padding-bottom: 25px !important;
       }
     }
     .sec_box {
