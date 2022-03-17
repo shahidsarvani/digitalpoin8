@@ -111,7 +111,108 @@
   background-size: 300px;
 }
 
+form, .input-field-wrap{
+  position: relative;
+}
+.form-control, .form-control:focus{
+  color: #5dffe8;
+}
+.input-filed{
+  margin-bottom: 20px;
+}
+.select2-search--dropdown{
+  padding: 0;
+}
+.select2-search--dropdown .select2-search__field{
+  display: none;
+}
+form textarea{
+  background-color: transparent !important;
+  border-color: #184c4e;
+  border-radius: 50px;
+  border-width: 2px;
+}
+.select2-selection--single{
+  background-color: transparent !important;
+  border: 2px solid #184c4e !important;
+  border-radius: 50px !important;
+  color: #5dffe8 !important;
+  padding: 5px !important;
+  height: 41px !important;
+}
+.select2-container--default .select2-results__option--selected{
+  background-color: #5dffe8;
+  color: #010e16;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b{
+  border-color: #5dffe8 transparent transparent transparent;
+}
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b{
+  border-color: transparent transparent #5dffe8 transparent;
+}
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable{
+  background-color: #5dffe8;
+  color: #010e16;
+}
+.select2-results__option--selectable{
+  color: #5dffe8;
+}
+.select2-dropdown{
+  background-color: #010e16;
+  border: 1px solid #5dffe8;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+  height: 41px !important;
+  right: 10px !important;
+}
+.select2-selection__rendered{
+  color: #5dffe8 !important;
+}
+label {
+  position: absolute;
+  top: -20px;
+  left: 9px;
+  background-color: #5dffe8;
+  color: #010e16;
+  padding: 2px 5px;
+  border-radius: 50px;
+}
+input {
+  font-size: 20px;
+  position: relative;
+  bottom: 0;
+  transition: opacity 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+input:invalid + label {
+  top: -20px;
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+input:focus::-webkit-input-placeholder {
+  color: transparent !important;
+  transition: color 0.25s ease-in-out;
+}
+input:focus + label {
+  top: -20px;
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+input:focus::-webkit-input-placeholder {
+  color: green;
+  font-weight: 100;
+  font-family: sans-serif;
+  transition: color 0.25s ease-in-out;
+}
+.select2-selection--single:focus{
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
 @media only screen and (max-width: 767px) {
+  .what_we_do{
+    background-image: none;
+  }
   .max-width {
     max-width: 95%;
     margin: auto;
