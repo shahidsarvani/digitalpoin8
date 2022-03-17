@@ -1,0 +1,33 @@
+.experimental_club {
+  .services_para_txt {
+    padding-left: 80px !important;
+  }
+  .services_para_txt::before {
+    content: "";
+    background-image: url(../images/Subtract.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 2px;
+    position: absolute;
+    left: -5px;
+    top: 12px;
+  }
+  .spaceship_bg {
+    background-image: url(../images/spaceship.svg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+  }
+  .button-bottom .hero-btn.primary-btn {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: auto;
+  }
+  .button-bottom {
+    margin-top: auto;
+    margin-bottom: 35px;
+    margin-left: 45px;
+  }
+}
