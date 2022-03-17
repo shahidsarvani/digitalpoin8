@@ -1861,13 +1861,6 @@ input:focus::-webkit-input-placeholder {
 }
 
 @media only screen and (max-width: 767px) {
-  .expertise_section {
-    background-image: url("../images/expertise_bg.png");
-    background-size: cover;
-    padding-top: 0px;
-    padding-bottom: 50px;
-    background-position: bottom right;
-  }
   .our_projects .main_img_dp8 {
     width: auto;
   }
@@ -1879,12 +1872,5 @@ input:focus::-webkit-input-placeholder {
 @media screen and (max-width: 1180px) and (min-width: 768px) {
   .our_projects .img_contain_main img {
     width: 280px;
-  }
-  .expertise_section {
-    background-image: url("../images/expertise_bg.png");
-    background-size: cover;
-    padding-top: 0px;
-    padding-bottom: 50px;
-    background-position: bottom right;
   }
 }
