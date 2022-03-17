@@ -1,11 +1,13 @@
 .expertise_section {
     background-image: url("../images/expertise_bg.png");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+    padding-top: 120px;
+    padding-bottom: 80px;
 
 }
 .expertise_content_inner {
-    padding-top: 120px;
+    min-height: 450px;
     h2 {
         color: #FFF;
         font-size: 85px;
@@ -30,4 +32,11 @@
         width: 75%;
         margin-bottom: 30px;
     }
+}
+
+.expertise_col {
+    background-image: url("../images/ar_expertise.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
 }

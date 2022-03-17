@@ -1657,12 +1657,14 @@ input:focus::-webkit-input-placeholder {
 
 .expertise_section {
   background-image: url("../images/expertise_bg.png");
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
+  padding-top: 120px;
+  padding-bottom: 80px;
 }
 
 .expertise_content_inner {
-  padding-top: 120px;
+  min-height: 450px;
 }
 
 .expertise_content_inner h2 {
@@ -1690,4 +1692,14 @@ input:focus::-webkit-input-placeholder {
   width: 75%;
   margin-bottom: 30px;
 }
+<<<<<<< HEAD
 /*# sourceMappingURL=style.css.map */
+=======
+
+.expertise_col {
+  background-image: url("../images/ar_expertise.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+>>>>>>> c02b84bc60016d7120cf6f0b69882a87b0e5b4e2
