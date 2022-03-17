@@ -63,6 +63,12 @@
   margin: 0 auto;
 }
 
+@media (max-width: 992px) {
+  .dp_sec_heading{
+    font-size: 60px;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .dp_sec_heading {
     font-size: 35px;
