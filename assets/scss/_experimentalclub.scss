@@ -1,17 +1,18 @@
 .experimental_club {
   .services_para_txt {
-    padding-left: 80px !important;
+    padding-left: 125px !important;
+    padding-top: 30px;
   }
   .services_para_txt::before {
     content: "";
     background-image: url(../images/Subtract.svg);
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 80px;
-    height: 2px;
+    width: 125px;
+    height: 4px;
     position: absolute;
     left: -5px;
-    top: 12px;
+    top: 40px;
   }
   .spaceship_bg {
     background-image: url(../images/spaceship.svg);
@@ -29,5 +30,96 @@
     margin-top: auto;
     margin-bottom: 35px;
     margin-left: 45px;
+  }
+}
+
+.experimental_container, .interactive_container, .arvr_container{
+  margin-bottom: 70px;
+}
+
+
+@media (max-width: 1200px) {
+  section.banner_services .dp_sec_service{
+    font-size: 80px;
+  }
+  .experimental_club{
+    .services-button-wrap img{
+      max-width: 450px;
+    }
+    .dp_sec_heading{
+      font-size: 64px;
+      line-height: 44px;
+    }
+    .services_para_txt::before{
+      width: 93px;
+    }
+    .services_para_txt{
+      padding-left: 93px !important;
+    }
+  }
+  .services-details-wrap{
+    .txt-neon{
+      font-size: 62px;
+      line-height: 50px;
+    }
+    .title-exp{
+      font-size: 34px;
+      line-height: 34px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .services-button-wrap{
+    margin-bottom: 50px;
+  }
+  .mob-txt-left.align-items-center{
+    align-items: flex-start !important;
+  }
+  .experimental_club{
+    .dp_sec_heading{
+      font-size: 45px;
+      line-height: 30px;
+    }
+    .services_para_txt::before{
+      width: 93px;
+    }
+    .services_para_txt{
+      padding-left: 93px !important;
+    }
+  }
+  .services-details-wrap{
+    .title-exp{
+      font-size: 30px;
+      line-height: 30px;
+    }
+  }
+  section.banner_services .dp_sec_service{
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  section.banner_services .dp_sec_service{
+    font-size: 55px;
+    line-height: 39px;
+  }
+  .experimental_club{
+    .services-button-wrap img{
+      max-width: 100%;
+    }
+  }
+  .services-btn{
+    bottom: 20px;
+    left: 134px;
+    max-width: 188px;
+  }
+  .experimental_club{
+    .services_para_txt::before{
+      width: 70px;
+    }
+    .services_para_txt{
+      padding-left: 70px !important;
+    }
   }
 }

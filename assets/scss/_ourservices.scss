@@ -11,5 +11,47 @@ section.banner_services {
     font-size: 90px;
   }
 }
+.services-button-wrap{
+  position: relative;
+}
+.services-button-wrap img{
+  max-width: 550px;
+}
+.services-btn{
+  position: absolute;
+    bottom: 60px;
+    left: 140px;
+    right: 0;
+    max-width: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+.dp_sec_heading{
+  line-height: 59px;
+}
+.services-details-wrap{
+  max-width: 411px;
+  .txt-neon{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 93.9455px;
+    line-height: 79px;
+  }
+  .title-exp{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 45px;
+    margin-bottom: 30px;
+  }
+  .platforms-supported{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    max-width: 338px;
+  }
+}
 
 @import "_experimentalclub.scss";
