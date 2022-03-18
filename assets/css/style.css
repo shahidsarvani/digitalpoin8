@@ -295,8 +295,8 @@ section {
     -ms-transition: all 0.5s;
   }
   .logo_dp8.opened img {
-    background-color: #1c6d62;
-    border-radius: 5px;
+    background-color: #05322c;
+    border-radius: 0px;
     -webkit-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
     transition: all 0.5s;
@@ -1896,6 +1896,7 @@ input:focus::-webkit-input-placeholder {
   border-radius: 20px;
   max-height: 620px !important;
   overflow: auto;
+  margin-bottom: 30px;
 }
 
 .project-modal-content {
@@ -1923,6 +1924,9 @@ input:focus::-webkit-input-placeholder {
 }
 
 @media only screen and (max-width: 767px) {
+  .modal-body {
+    padding: 0 20px 50px 20px !important;
+  }
   .our_projects .main_img_dp8 {
     width: auto;
   }
