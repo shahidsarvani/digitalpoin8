@@ -352,6 +352,27 @@
     <script src="./assets/js/select2.min.js"></script>
     <script src="./assets/js/slick.js"></script>
     <script src="./assets/js/custom.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.min.js"></script>
+
+    <script type="text/javascript">
+        $(function(){
+        $(".project-modal-img").slimScroll({
+            size: '5px', 
+            width: '100%', 
+            height: '100%', 
+            color: '#184F50', 
+            allowPageScroll: true,
+            distance: '10px',
+            railColor: '#000000',
+            railVisible: true,
+            opacity:'1',
+            top:'10px',
+            position: 'right',
+            alwaysVisible: true,   
+            railopacity:'1'
+        });
+        });
+    </script>
 
 </body>
 

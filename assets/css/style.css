@@ -1923,6 +1923,10 @@ input:focus::-webkit-input-placeholder {
   height: 100%;
 }
 
+.slimScrollRail {
+  opacity: 0.4 !important;
+}
+
 @media only screen and (max-width: 767px) {
   .modal-body {
     padding: 0 20px 50px 20px !important;
@@ -2203,4 +2207,3 @@ img, svg {
     font-size: 16px;
   }
 }
-/*# sourceMappingURL=style.css.map */
