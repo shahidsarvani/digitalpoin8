@@ -32,7 +32,11 @@ html {
   font-family: "SF Compact Display Medium";
   background-color: #010e16;
 }
-
+.container, .container-lg, .container-md, .container-sm, .container-xl{
+  max-width: 1920px !important;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 @font-face {
   font-family: "SF Compact Display Medium";
   font-style: normal;

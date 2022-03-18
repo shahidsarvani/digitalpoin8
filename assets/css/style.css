@@ -31,6 +31,12 @@ html {
   background-color: #010e16;
 }
 
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  max-width: 1920px !important;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 @font-face {
   font-family: "SF Compact Display Medium";
   font-style: normal;
@@ -170,6 +176,12 @@ header {
 
 .main_section .arrow_down {
   top: 45% !important;
+}
+
+header {
+  max-width: 1500px;
+  margin: 0 auto;
+  right: 0;
 }
 
 .main_section {
@@ -352,7 +364,7 @@ section {
 .main_section .arrow_down {
   position: absolute;
   top: 180%;
-  left: -120px;
+  left: -60px;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
 }
@@ -607,7 +619,7 @@ section {
   .main_section .arrow_down {
     position: absolute;
     top: 180%;
-    left: -100px;
+    left: -60px;
   }
   .client_slider .content_wrappeer img {
     width: 130px !important;
@@ -2207,3 +2219,4 @@ img, svg {
     font-size: 16px;
   }
 }
+/*# sourceMappingURL=style.css.map */

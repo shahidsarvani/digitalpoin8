@@ -89,6 +89,11 @@ header {
 .main_section .arrow_down{
     top: 45% !important;
 }
+header{
+    max-width: 1500px;
+    margin: 0 auto; 
+    right: 0;
+}
 .main_section{
     background-image: url(../images/hero-bg.png) !important;
     max-width: 1500px;
@@ -204,7 +209,7 @@ section{
         transition: all 0.5s;
         -webkit-transition: all 0.5s;
         -moz-transition: all 0.5s;
-        -ms-transition: all 0.5s;
+        -ms-transition: all 0.5s; 
     }
     .logo_dp8.opened img{
         background-color: #05322c;
