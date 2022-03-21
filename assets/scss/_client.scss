@@ -1,16 +1,17 @@
 .client_section {
   min-height: 30vh;
-  background-image: linear-gradient(
-    to right bottom,
-    #194a4e,
-    #133a41,
-    #102b34,
-    #0c1d25,
-    #010e16
-  );
+  // background-image: linear-gradient(
+  //   to right bottom,
+  //   #194a4e,
+  //   #133a41,
+  //   #102b34,
+  //   #0c1d25,
+  //   #010e16
+  // );
+  background: linear-gradient(156.59deg, #194A4E -20.09%, rgba(1, 22, 29, 1) 57.39%);
 }
 .dp_sec_heading {
-  font-size: 85px;
+  font-size: 72px;
   text-transform: uppercase;
   color: #fff;
 
@@ -22,7 +23,12 @@
     -webkit-text-stroke-color: #fff;
   }
 }
-
+h1, h2, .txt-neon, .main_section span{
+  font-family: "SF UI Display Heavy";
+}
+.dp_sec_heading span{
+  margin-left: -5px;
+}
 .client_slider {
   .content_wrappeer {
     padding: 20px;
@@ -62,7 +68,11 @@
   max-width: 700px;
   margin: 0 auto;
 }
-
+@media (max-width: 1400px) and (min-width: 1100px) {
+  .dp_sec_heading{
+    font-size: 65px;
+  }
+}
 @media (max-width: 992px) {
   .dp_sec_heading{
     font-size: 60px;
