@@ -88,6 +88,28 @@ html {
   min-height: 100vh;
   font-family: "SF UI Display Medium";
 }
+#myBtn img{
+  max-width: 50px;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 100%;
+}
+
+#myBtn:hover {
+  background-color: transparent;
+}
 
 @import "_header";
 @import "_mainSection";
