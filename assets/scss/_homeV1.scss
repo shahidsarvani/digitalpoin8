@@ -1,0 +1,25 @@
+.main_section_v1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh !important;
+    background: transparent !important;
+}
+.main_section_v1 .content_inner_dp{
+    padding: 0 !important;
+}
+#myVideo{
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.main-hero-video-bg-wrap{
+    position: relative;
+}
+.bg-video-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
