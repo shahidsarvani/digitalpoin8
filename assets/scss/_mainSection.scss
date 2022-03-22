@@ -16,6 +16,20 @@
     letter-spacing: 12px;
   }
 
+  .nav_menu_club_wrao{
+    align-items: flex-end;
+  }
+
+  .nav_menu_club_wrao p{
+    margin-right: -6px;
+    line-height: 30px !important;
+  }
+
+  .nav_menu_club_wrao img{
+    max-width: 80px;
+    margin: 0 0 0 auto;
+  }
+
   .arrow_down_ico::before {
     content: "";
     background-image: url(../images/arrow_down.svg);

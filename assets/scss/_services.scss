@@ -13,13 +13,13 @@
       rgba(26, 81, 83, 0) 75.62%
     );
     border-radius: 15px;
-    min-height: 375px;
+    min-height: 420px;
     .service_img {
       background-image: url(../images/bg_rounded.svg);
       background-repeat: no-repeat;
       background-size: 70%;
       border-top-left-radius: 16px;
-      padding-bottom: 95px;
+      padding-bottom: 125px;
     }
     img {
       width: 160px;
@@ -146,7 +146,7 @@
     .service_box {
       .service_img {
         background-size: 35% !important;
-        padding-bottom: 60px !important;
+        padding-bottom: 100px !important;
       }
     }
   }
@@ -161,7 +161,7 @@
       .service_img {
         background-size: 35% !important;
         border-top-left-radius: 16px !important;
-        padding-bottom: 25px !important;
+        padding-bottom: 75px !important;
       }
     }
     .sec_box {

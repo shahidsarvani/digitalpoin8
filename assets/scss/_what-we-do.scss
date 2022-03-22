@@ -1,6 +1,11 @@
 img, svg{
     max-width: 100%;
 }
+.what_we_do_content{
+    max-width: 300px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
 .what_we_do_col{
     background-image: url(../images/what-we-do-hero.svg);
     background-size: 100% 100%;
@@ -35,5 +40,11 @@ img, svg{
     }
     .what-we-do-content-wrap p{
         font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .what_we_do_content{
+        margin: 0 auto;
     }
 }

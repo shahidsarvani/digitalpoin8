@@ -88,9 +88,16 @@ html {
   min-height: 100vh;
   font-family: "SF UI Display Medium";
 }
+
+.mid-content{
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 #myBtn img{
   max-width: 50px;
 }
+
 #myBtn {
   display: none;
   position: fixed;
@@ -109,6 +116,12 @@ html {
 
 #myBtn:hover {
   background-color: transparent;
+}
+
+@media (max-width: 767px) {
+  .mid-content{
+    max-width: 400px;
+  }
 }
 
 @import "_header";

@@ -8,7 +8,10 @@
   //   #0c1d25,
   //   #010e16
   // );
-  background: linear-gradient(156.59deg, #194A4E -20.09%, rgba(1, 22, 29, 1) 57.39%);
+  background: linear-gradient(156.59deg, #194A4E -20.09%, #010e16 57.39%);
+}
+.client_slider .slick-track{
+  margin-left: -45px;
 }
 .dp_sec_heading {
   font-size: 72px;

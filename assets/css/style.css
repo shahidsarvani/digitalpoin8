@@ -86,6 +86,11 @@ html {
   font-family: "SF UI Display Medium";
 }
 
+.mid-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 #myBtn img {
   max-width: 50px;
 }
@@ -108,6 +113,12 @@ html {
 
 #myBtn:hover {
   background-color: transparent;
+}
+
+@media (max-width: 767px) {
+  .mid-content {
+    max-width: 400px;
+  }
 }
 
 header {
@@ -321,7 +332,7 @@ section {
   transition: 250ms all ease-in;
 }
 
-.navbar_dp .nav_cp_dp .navbar-nav .nav-item .nav-link:hover {
+.navbar_dp .nav_cp_dp .navbar-nav .nav-item .nav-link:hover, .navbar_dp .nav_cp_dp .navbar-nav .nav-item .nav-link.active {
   border: 2px solid #14484B;
   border-radius: 50px;
   color: #5DFFE8;
@@ -425,6 +436,22 @@ section {
 .main_section .arrow_down_ico {
   font-size: 26px;
   letter-spacing: 12px;
+}
+
+.main_section .nav_menu_club_wrao {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.main_section .nav_menu_club_wrao p {
+  margin-right: -6px;
+  line-height: 30px !important;
+}
+
+.main_section .nav_menu_club_wrao img {
+  max-width: 80px;
+  margin: 0 0 0 auto;
 }
 
 .main_section .arrow_down_ico::before {
@@ -810,7 +837,11 @@ section {
 
 .client_section {
   min-height: 30vh;
-  background: linear-gradient(156.59deg, #194A4E -20.09%, #01161d 57.39%);
+  background: linear-gradient(156.59deg, #194A4E -20.09%, #010e16 57.39%);
+}
+
+.client_slider .slick-track {
+  margin-left: -45px;
 }
 
 .dp_sec_heading {
@@ -898,7 +929,6 @@ h1, h2, .txt-neon, .main_section span {
 }
 
 .our_expertise {
-  background-image: url("../images/our-expertise-bg.png");
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -1512,7 +1542,7 @@ input:focus::-webkit-input-placeholder {
 .services .service_box {
   background: linear-gradient(135.87deg, #1a5153 2.28%, rgba(26, 81, 83, 0.0520833) 71.8%, rgba(26, 81, 83, 0) 75.62%);
   border-radius: 15px;
-  min-height: 375px;
+  min-height: 420px;
 }
 
 .services .service_box .service_img {
@@ -1520,7 +1550,7 @@ input:focus::-webkit-input-placeholder {
   background-repeat: no-repeat;
   background-size: 70%;
   border-top-left-radius: 16px;
-  padding-bottom: 95px;
+  padding-bottom: 125px;
 }
 
 .services .service_box img {
@@ -1663,7 +1693,7 @@ input:focus::-webkit-input-placeholder {
 @media (max-width: 992px) {
   .services .service_box .service_img {
     background-size: 35% !important;
-    padding-bottom: 60px !important;
+    padding-bottom: 100px !important;
   }
 }
 
@@ -1674,7 +1704,7 @@ input:focus::-webkit-input-placeholder {
   .services .service_box .service_img {
     background-size: 35% !important;
     border-top-left-radius: 16px !important;
-    padding-bottom: 25px !important;
+    padding-bottom: 75px !important;
   }
   .services .sec_box {
     margin-top: 20%;
@@ -2245,6 +2275,12 @@ img, svg {
   max-width: 100%;
 }
 
+.what_we_do_content {
+  max-width: 300px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
 .what_we_do_col {
   background-image: url(../images/what-we-do-hero.svg);
   background-size: 100% 100%;
@@ -2282,6 +2318,12 @@ img, svg {
   }
   .what-we-do-content-wrap p {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .what_we_do_content {
+    margin: 0 auto;
   }
 }
 /*# sourceMappingURL=style.css.map */
