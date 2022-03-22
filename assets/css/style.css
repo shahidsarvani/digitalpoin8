@@ -244,14 +244,14 @@ header {
 }
 
 header {
-  max-width: 1500px;
+  max-width: 1920px;
   margin: 0 auto;
   right: 0;
 }
 
 .main_section {
   background-image: url(../images/hero-bg.png) !important;
-  max-width: 1500px;
+  max-width: 1920px;
   margin: 0 auto;
   background-position: bottom -50px center;
   height: auto;
@@ -259,7 +259,7 @@ header {
 }
 
 section {
-  max-width: 1500px;
+  max-width: 1920px;
   margin: 0 auto;
 }
 
@@ -2367,6 +2367,8 @@ img, svg {
 
 .main-hero-video-bg-wrap {
   position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .bg-video-wrap {
