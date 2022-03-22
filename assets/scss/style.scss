@@ -91,8 +91,12 @@ html {
 
 .mid-content{
   max-width: 700px;
-  margin: 0 auto;
+  margin: 0 auto 50px !important;
 }
+
+// .what_we_do .mid-content{
+//   margin-bottom: 50px !important;
+// }
 
 #myBtn img{
   max-width: 50px;
