@@ -2355,6 +2355,16 @@ img, svg {
      object-fit: cover;
 }
 
+.bg-video-wrap::before {
+  content: '';
+  background-color: rgba(3, 18, 26, 0.5);
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
 .main-hero-video-bg-wrap {
   position: relative;
 }
@@ -2364,5 +2374,9 @@ img, svg {
   top: 0;
   left: 0;
   width: 100%;
+}
+
+.client_section.color_client_section {
+  background: linear-gradient(156.59deg, #194A4E -20.09%, #01161d 57.39%) !important;
 }
 /*# sourceMappingURL=style.css.map */
