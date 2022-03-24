@@ -6,6 +6,27 @@
     background-position: bottom left;
     background-size: 100px;
 }
+.dc_section{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    .dc_form_col{
+        padding-right: 40px;
+    }
+    h2{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 95px;
+        text-transform: uppercase;
+        color: #FFF;
+    }
+    .dc_content_col{
+        background: linear-gradient(156.59deg, #194A4E -20.09%, rgba(1, 14, 22, 0) 57.39%);
+    }
+    .contact_inner{
+        padding: 75px 50px;
+    }
+}
 .contact_inner {
 
     h2 {
