@@ -91,6 +91,10 @@ html {
   margin: 0 auto 50px !important;
 }
 
+img {
+  max-width: 100%;
+}
+
 #myBtn img {
   max-width: 50px;
 }
@@ -2143,6 +2147,50 @@ input:focus::-webkit-input-placeholder {
   background-image: url("../images/chain_link.svg");
 }
 
+.sd_section {
+  background: linear-gradient(126.99deg, #194A4E -15.18%, rgba(1, 14, 22, 0) 49.1%);
+}
+
+.sd_section .sd_row .sd_heding_wrap h2 {
+  text-transform: uppercase;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 81px;
+}
+
+.sd_section .sd_row .sd_heding_wrap p {
+  max-width: 920px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.sd_section .sd_row .sd_inner_row {
+  margin-top: 80px;
+}
+
+.sd_section .sd_row .sd_inner_row .sd_img_wrap {
+  padding: 0 35px 0 0;
+}
+
+.sd_section .sd_row .sd_inner_row .sd_img_wrap img {
+  margin-bottom: 40px;
+}
+
+.sd_section .sd_row .sd_inner_row .sd_content_wrap {
+  margin-bottom: 100px;
+}
+
+.sd_section .sd_row .sd_inner_row .sd_content_wrap .title-exp {
+  font-size: 36px;
+  line-height: 45px;
+  max-width: 312px;
+}
+
 section.banner_services {
   min-height: 130vh;
   display: -webkit-box;
@@ -2209,6 +2257,33 @@ section.banner_services .dp_sec_service {
   line-height: 24px;
   color: #fff;
   max-width: 338px;
+}
+
+@media (max-width: 992px) {
+  .sd_section .sd_row .sd_inner_row {
+    margin-top: 50px;
+  }
+  .sd_section .sd_row .sd_inner_row .sd_img_wrap .primary-btn {
+    padding: 12px;
+  }
+  .sd_section .sd_row .sd_inner_row .sd_content_wrap {
+    margin-bottom: 50px;
+  }
+  .sd_section .sd_row .sd_inner_row .sd_content_wrap .title-exp {
+    font-size: 28px;
+    line-height: 34px;
+  }
+}
+
+@media (max-width: 767px) {
+  .sd_section .sd_row .sd_heding_wrap h2 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 25px;
+  }
+  .sd_section .sd_inner_row .sd_img_wrap {
+    margin-bottom: 80px;
+  }
 }
 
 .experimental_club .services_para_txt {
