@@ -48,15 +48,18 @@
     transition: all 7s;
 }
 .modal_info_container{
+    h2{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 37px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;    
+    }
     .about_company{
         h2{
-            font-style: normal;
-            font-weight: 900;
-            font-size: 36px;
-            line-height: 37px;
-            text-align: center;
-            text-transform: uppercase;
-            color: #FFFFFF;    
+            margin-top: 50px;
         }
         p{
             max-width: 767px;
@@ -72,13 +75,6 @@
     .about_company_logos{
         margin-top: 80px;
         h2{
-            font-style: normal;
-            font-weight: 900;
-            font-size: 36px;
-            line-height: 37px;
-            text-align: center;
-            text-transform: uppercase;
-            color: #FFFFFF;
             margin-bottom: 30px;    
         }
         .project_logos_wrap{
@@ -86,6 +82,113 @@
             justify-content: space-between;
             max-width: 600px;
             margin: 0 auto 30px;
+        }
+        .op_website_link{
+            text-align: center;
+            display: block;
+            margin-top: 50px;
+            a{
+                font-style: normal;
+                font-weight: 300;
+                font-size: 36px;
+                line-height: 37px;
+                text-align: center;
+                color: #FFFFFF;
+                text-decoration: none;
+                transition: all 0.5s;
+                -webkit-transition: all 0.5s;
+                -moz-transition: all 0.5s;
+                -ms-transition: all 0.5s;
+            }
+            a:hover{
+                color: aqua;
+                transition: all 0.5s;
+                -webkit-transition: all 0.5s;
+                -moz-transition: all 0.5s;
+                -ms-transition: all 0.5s; 
+            }
+        }
+    }
+    .about_project_ui{
+        h2{
+            margin-top: 70px;
+        }
+        .project_images_wrap{
+            .projetc-image{
+                margin-top: 64px;
+            }
+        }
+        .project_images_wrap.pro_res_images {
+            h2{
+                margin-top: 100px;
+            }
+        }
+        .modal_tk_wrap{
+            text-align: center;
+            p{
+                margin-top: 100px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 64px;
+                line-height: 37px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            a{
+                img{
+                    max-width: 80px;
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 980px) {
+    .project_card{
+        height: 350px;
+    }
+    .project_card {
+        img{
+            bottom: -388px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .project_card {
+        margin-bottom: 30px;
+        img{
+            bottom: -556px;
+        }
+    }
+    .modal_info_container {
+        h2{
+            font-size: 30px;
+            line-height: 30px;
+        }
+        .about_company_logos {
+            .op_website_link {
+                a{
+                    font-size: 22px;
+                }
+            }
+        }
+        .about_project_ui {
+            .project_images_wrap {
+                .projetc-image{
+                    margin-top: 30px;
+                }
+            }
+            .modal_tk_wrap {
+                p{
+                    font-size: 44px;
+                }
+                a{
+                    img{
+                        max-width: 50px;
+                    }
+                }
+            }
         }
     }
 }
