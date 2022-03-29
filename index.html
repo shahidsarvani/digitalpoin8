@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./assets/css/slick.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/temp.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>DigitalPoin8</title>
 </head>
@@ -79,8 +80,8 @@
                 <div class="content_inner_dp">
                     <div class="row">
                         <div class="col-12 text-center d-flex flex-column position-relative">
-                            <h2 class="mb-2">a step ahead</h2>
-                            <span>with new reality</span>
+                            <h2 class="mb-2" data-aos="fade-down-right" data-aos-duration="1000">a step ahead</h2>
+                            <span data-aos="fade-up-left" data-aos-duration="100">with new reality</span>
                             <div class="arrow_down">
                                 <a href="#client-sec"
                                     class="arrow_down_ico text-light text-uppercase position-relative text-decoration-none">Scroll</a>
@@ -132,8 +133,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 py-5">
-                    <h2 class="dp_sec_heading text-center">Our<span>Clientele</span></h2>
-                    <div class="client_slider py-5 my-5">
+                    <h2 class="dp_sec_heading text-center" data-aos="zoom-in-up" data-aos-duration="1000">Our<span>Clientele</span></h2>
+                    <div class="client_slider py-5 my-5" data-aos="fade-up" data-aos-duration="2000">
                         <div class="content_wrappeer">
                             <img src="./assets/images/gob.svg">
                         </div>
@@ -173,6 +174,8 @@
     </section>
     <!-- END of Client Section -->
 
+
+    
     <!-- Our Expertise Section -->
     <!-- <section class="our_expertise exp-section-padding">
         <div class="container py-3">
@@ -560,7 +563,11 @@
     <script src="./assets/js/select2.min.js"></script>
     <script src="./assets/js/slick.js"></script>
     <script src="./assets/js/custom.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+    <script>
+        AOS.init();
+      </script>
     <script>
         //Get the button
         var mybutton = document.getElementById("myBtn");
@@ -582,6 +589,7 @@
           document.documentElement.scrollTop = 0;
         }
     </script>
+
 
 </body>
 

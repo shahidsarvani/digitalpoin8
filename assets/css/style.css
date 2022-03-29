@@ -161,13 +161,15 @@ header {
 
 .mobile-nav-close-btn img {
   max-width: 25px;
+  -webkit-filter: brightness(0.6);
+          filter: brightness(0.6);
 }
 
 .mobile-nav-close {
   display: none;
   position: absolute;
   color: #fff;
-  right: 5px;
+  right: 25px;
   top: 25px;
   font-size: 30px;
 }
@@ -355,6 +357,12 @@ section {
 }
 
 @media (max-width: 992px) {
+  .navbar_dp .nav_cp_dp .navbar-nav .nav-item .nav-link {
+    padding: 5px 1px;
+  }
+  .navbar_dp .nav_cp_dp .navbar-nav .nav-item .nav-link:hover, .navbar_dp .nav_cp_dp .navbar-nav .nav-item .nav-link.active {
+    border: 0px solid #14484B;
+  }
   .navbar-toggler {
     padding: .25rem 0rem !important;
   }
@@ -390,7 +398,6 @@ section {
     -ms-transition: all 0.5s;
   }
   .logo_dp8.opened img {
-    background-color: #05322c;
     border-radius: 0px;
     -webkit-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -432,7 +439,8 @@ section {
 
 @media (max-width: 767px) {
   .navbar-nav .nav-item {
-    padding-left: 13px;
+    padding-left: 30px;
+    max-width: 93%;
   }
   .navbar-collapse {
     left: 0;
@@ -1762,6 +1770,19 @@ input:focus::-webkit-input-placeholder {
 }
 
 @media only screen and (max-width: 767px) {
+  .contact_us .form-wrapper .w-50 {
+    width: 100% !important;
+  }
+  .contact_us .form-wrapper .input-field-wrap.me-2 {
+    margin-right: 0rem !important;
+  }
+  .contact_us .form-wrapper .input-field-wrap.ms-2 {
+    margin-left: 0rem !important;
+  }
+  .contact_us .form-wrapper.d-flex {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
   .footer h6 {
     font-size: 16px;
   }

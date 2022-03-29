@@ -14,6 +14,24 @@
   }
 }
 @media only screen and (max-width: 767px) {
+  .contact_us {
+    .form-wrapper {
+      .w-50{
+        width: 100% !important;
+      }
+      .input-field-wrap.me-2{
+          margin-right: 0rem!important;
+      }
+      .input-field-wrap.ms-2{
+          margin-left: 0rem!important;
+      }
+    }
+  }
+  .contact_us {
+    .form-wrapper.d-flex{
+      flex-wrap: wrap;
+    }
+  }
   .footer h6 {
     font-size: 16px;
   }
