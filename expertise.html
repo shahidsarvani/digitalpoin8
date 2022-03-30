@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./assets/css/slick.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/temp.css">
+    <link rel="stylesheet" href="./assets/css/aos.css">
 
     <title>DigitalPoin8</title>
 </head>
@@ -76,13 +77,13 @@
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="expertise_content_inner d-flex flex-column justify-content-end">
-                        <h2 class="dp_sec_heading">About <br> <span>Us</span></h2>
-                        <p>
+                        <h2 class="dp_sec_heading" data-aos="zoom-in-up" data-aos-duration="1000">About <br> <span>Us</span></h2>
+                        <p data-aos="zoom-in-up" data-aos-duration="2000">
                             Our team comprises Unity, Unreal Engine, iOS and Android developers, 3D and VFX artists and
                             animators.
                             We are extensively experienced in developing projects of any level and complexit
                         </p>
-                        <p>
+                        <p data-aos="zoom-in-up" data-aos-duration="3000">
                             Our team comprises Unity, Unreal Engine, iOS and Android developers, 3D and VFX artists and
                             animators.
                             We are extensively experienced in developing projects of any level and complexit
@@ -90,7 +91,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <div class="expertise_col">
+                    <div class="expertise_col" data-aos="flip-right" data-aos-duration="3000">
 
                     </div>
                 </div>
@@ -105,7 +106,7 @@
         <div class="container">
             <div class="row heading_row">
                 <div class="col-12">
-                    <h2 class="block_heading">
+                    <h2 class="block_heading" data-aos="zoom-in-up" data-aos-duration="1000">
                         Our Services
                     </h2>
                 </div>
@@ -113,7 +114,7 @@
             <div class="row exp_services_row">
 
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="exp_services_wrap">
+                    <div class="exp_services_wrap" data-aos="fade-up" data-aos-duration="1000">
                         <h3>Experiential Club</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem lectus commodo et sit sit sed augue semper. Ullamcorper leo at laoreet nunc, dignissim eleifend praesent adipiscing duis. Tincidunt varius ridiculus ornare maecenas turpis ornare. Donec purus quis tristique tortor amet. 
                         </p>
@@ -122,7 +123,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="exp_services_wrap">
+                    <div class="exp_services_wrap" data-aos="fade-up" data-aos-duration="2000">
                         <h3>Interactive Club</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem lectus commodo et sit sit sed augue semper. Ullamcorper leo at laoreet nunc, dignissim eleifend praesent adipiscing duis.</p>
                         <a href="#" class="exp_service_btn primary-btn">View Service</a>
@@ -130,7 +131,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="exp_services_wrap">
+                    <div class="exp_services_wrap" data-aos="fade-up" data-aos-duration="3000">
                         <h3>AR / VR Club</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem lectus commodo et sit sit sed augue semper. Ullamcorper leo at laoreet nunc, dignissim eleifend praesent adipiscing duis. Tincidunt varius ridiculus ornare maecenas turpis ornare. Donec purus quis tristique tortor amet. 
                         </p>
@@ -321,12 +322,12 @@
             <div class="max-width">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h2 class="dp_sec_heading text-center mb-5">Contact<span>Us </span> </h2>
+                        <h2 class="dp_sec_heading text-center mb-5" data-aos="zoom-in-up" data-aos-duration="1000">Contact<span>Us </span> </h2>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
-                        <form>
+                        <form data-aos="zoom-in-up" data-aos-duration="2000">
                             <div class="form-wrapper d-flex custom-form">
                                 <div class="mb-3 w-50 me-2 input-field-wrap">
                                     <div class="input-filed">
@@ -416,7 +417,17 @@
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/select2.min.js"></script>
     <script src="./assets/js/slick.js"></script>
+    <script src="./assets/js/aos.js"></script>
     <script src="./assets/js/custom.js"></script>
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    
+
+    <script>
+        AOS.init();
+        document.addEventListener("DOMContentLoaded", function() {
+            setTimeout(function() { AOS.refresh(); }, 500);
+        });
+    </script>
 
     <script>
         //Get the button

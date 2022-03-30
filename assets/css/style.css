@@ -130,6 +130,10 @@ html {
   background-color: transparent;
 }
 
+section {
+  overflow-x: hidden;
+}
+
 @media (max-width: 767px) {
   .mid-content {
     max-width: 400px;

@@ -144,15 +144,13 @@ html {
   background-color: transparent;
 }
 // .homepage section{
-//   height: 100vh !important;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
+//   overflow-x: hidden;
 // }
-// section{
-//   padding-top: 100px !important;
-//   padding-bottom: 100px !important;
-// }
+section{
+  // padding-top: 100px !important;
+  // padding-bottom: 100px !important;
+  overflow-x: hidden;
+}
 
 @media (max-width: 767px) {
   .mid-content{
