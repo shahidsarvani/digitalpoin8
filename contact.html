@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./assets/css/slick.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/temp.css">
+    <link rel="stylesheet" href="./assets/css/aos.css">
 
     <title>DigitalPoin8</title>
 </head>
@@ -67,6 +68,7 @@
     </header>
     <!-- End of Header -->
 
+    
 
     <!-- Contact Main Start -->
 
@@ -76,15 +78,15 @@
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="expertise_content_inner d-flex flex-column justify-content-center">
-                        <h2 class="dp_sec_heading">CONTACT <br> <span>US</span></h2>
-                        <p>
+                        <h2 class="dp_sec_heading" data-aos="zoom-in-up" data-aos-duration="1000">CONTACT <br> <span>US</span></h2>
+                        <p data-aos="zoom-in-up" data-aos-duration="2000">
                             Our team comprises Unity, Unreal Engine, iOS and Android developers,
                         </p>
                      
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <div class="expertise_col chain_bg">
+                    <div class="expertise_col chain_bg" data-aos="flip-right" data-aos-duration="3000">
 
                     </div>
                 </div>
@@ -101,8 +103,8 @@
         <div class="container">
                 <div class="row">
                     <div class="col-lg-6 me-auto dc_form_col">
-                        <h2>Get in touch</h2>
-                        <form>
+                        <h2 data-aos="zoom-in-up" data-aos-duration="1000">Get in touch</h2>
+                        <form data-aos="zoom-in-up" data-aos-duration="2000">
                             <div class="form-wrapper d-flex custom-form">
                                 <div class="mb-1 w-50 me-2 input-field-wrap">
                                     <div class="input-filed">
@@ -157,25 +159,25 @@
                         <div class="contact_inner">
                             <div class="c-phone-wrap cdc-wrap">
                                 <span class="c-phone-icon-wrap">
-                                    <img src="./assets/images/c-mobile-icon.svg" alt="c-phone">
+                                    <img data-aos="flip-right" data-aos-duration="1000" src="./assets/images/c-mobile-icon.svg" alt="c-phone">
                                 </span>
-                                <span class="c-phone-content-wrap">
+                                <span class="c-phone-content-wrap" data-aos="fade-left" data-aos-duration="2000">
                                     <p>+971 12 344 5678</p>
                                 </span>
                             </div>
                             <div class="c-email-wrap cdc-wrap">
                                 <span class="c-email-icon-wrap">
-                                    <img src="./assets/images/c-email-icon.svg" alt="c-email">
+                                    <img data-aos="flip-right" data-aos-duration="1000" src="./assets/images/c-email-icon.svg" alt="c-email">
                                 </span>
-                                <span class="c-email-content-wrap">
+                                <span class="c-email-content-wrap" data-aos="fade-left" data-aos-duration="2000">
                                     <p>info@DigitalPoint.ae</p>
                                 </span>
                             </div>
                             <div class="c-address-wrap cdc-wrap">
                                 <span class="c-address-icon-wrap">
-                                    <img src="./assets/images/c-address-icon.svg" alt="c-address">
+                                    <img data-aos="flip-right" data-aos-duration="1000" src="./assets/images/c-address-icon.svg" alt="c-address">
                                 </span>
-                                <span class="c-address-content-wrap">
+                                <span class="c-address-content-wrap" data-aos="fade-left" data-aos-duration="2000">
                                     <p>Lorem ipsum dolor 123 consectetur adipiscing elit. tortor fermentum.</p>
                                 </span>
                             </div>
@@ -230,7 +232,15 @@
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/select2.min.js"></script>
     <script src="./assets/js/slick.js"></script>
+    <script src="./assets/js/aos.js"></script>
     <script src="./assets/js/custom.js"></script>
+
+    <script>
+        AOS.init();
+        document.addEventListener("DOMContentLoaded", function() {
+            setTimeout(function() { AOS.refresh(); }, 500);
+        });
+    </script>
 
     <script>
         //Get the button
