@@ -2581,15 +2581,12 @@ img, svg {
 
 @media (max-width: 992px) {
   .what-we-do-content-wrap h3 {
-    font-size: 30px;
+    font-size: 32px;
     line-height: 70px;
   }
   .what-we-do-content-wrap p {
     font-size: 16px;
   }
-}
-
-@media (max-width: 767px) {
   .wwd_content_row {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2608,6 +2605,9 @@ img, svg {
     max-width: 73% !important;
     width: 73% !important;
   }
+}
+
+@media (max-width: 767px) {
   .expertise_section.wwd_hero_banner {
     padding-bottom: 0 !important;
   }
