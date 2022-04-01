@@ -129,8 +129,15 @@ section.banner_services {
       }
     }
     .sd_inner_row {
+      .sd_img_wrap.text-center{
+        text-align: left !important;
+      }
       .sd_img_wrap {
         margin-bottom: 80px;
+        img{
+          max-width: 100px;
+          display: block;
+        }
       }
     }
   }

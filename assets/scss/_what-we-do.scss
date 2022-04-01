@@ -35,8 +35,8 @@ img, svg{
 
 @media (max-width: 992px) {
     .what-we-do-content-wrap h3{
-        font-size: 40px;
-        line-height: 75px;
+        font-size: 30px;
+        line-height: 70px;
     }
     .what-we-do-content-wrap p{
         font-size: 16px;
@@ -44,6 +44,23 @@ img, svg{
 }
 
 @media (max-width: 767px) {
+    .wwd_content_row{
+        display: flex;
+        .wwd_img_col{
+            max-width: 25% !important;
+            width: 25% !important;
+        }
+        .wwd_img_col.align-items-center{
+            align-items: flex-start !important;
+        }
+        .wwd_content_col{
+            max-width: 73% !important;
+            width: 73% !important;
+        }
+    }
+    .expertise_section.wwd_hero_banner{
+        padding-bottom: 0 !important;
+    }
     .what_we_do_content{
         margin: 0 auto;
     }
