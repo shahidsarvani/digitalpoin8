@@ -56,7 +56,13 @@
   }
 }
 
-
+.sd_img_wrap{
+  a{
+    display: block;
+    max-width: 220px;
+    margin: 0 auto;
+  }
+}
 
 .check_test {
   display: flex;

@@ -1633,6 +1633,12 @@ input:focus::-webkit-input-placeholder {
   width: 130px;
 }
 
+.sd_img_wrap a {
+  display: block;
+  max-width: 220px;
+  margin: 0 auto;
+}
+
 .check_test {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2577,6 +2583,10 @@ img, svg {
   font-size: 18px;
   line-height: 25px;
   color: #fff;
+}
+
+.wwd_image {
+  margin: 0 auto;
 }
 
 @media (max-width: 992px) {
