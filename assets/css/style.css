@@ -2086,7 +2086,7 @@ input:focus::-webkit-input-placeholder {
 }
 
 .project-modal .modal-dialog .modal-content {
-  background-color: #01161D;
+  background-color: #5dffe8;
   border-radius: 20px;
 }
 
@@ -2097,9 +2097,9 @@ input:focus::-webkit-input-placeholder {
 .project-modal .modal-dialog .modal-content .modal-header .btn-close {
   width: 18px;
   height: 18px;
-  color: #fff;
-  -webkit-filter: brightness(0) invert(1);
-          filter: brightness(0) invert(1);
+  color: #000;
+  -webkit-filter: brightness(0) invert(0);
+          filter: brightness(0) invert(0);
   opacity: 1;
 }
 
@@ -2736,6 +2736,11 @@ img, svg {
   transition: all 5s;
 }
 
+.modal_info_container .mod_tk_btn_wrap img {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
 .modal_info_container h2 {
   font-style: normal;
   font-weight: 900;
@@ -2743,7 +2748,7 @@ img, svg {
   line-height: 37px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #010e16;
 }
 
 .modal_info_container .about_company h2 {
@@ -2758,7 +2763,7 @@ img, svg {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
-  color: #FFFFFF;
+  color: #010e16;
 }
 
 .modal_info_container .about_company_logos {
@@ -2792,7 +2797,7 @@ img, svg {
   font-size: 36px;
   line-height: 37px;
   text-align: center;
-  color: #FFFFFF;
+  color: #010e16;
   text-decoration: none;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
@@ -2801,7 +2806,7 @@ img, svg {
 }
 
 .modal_info_container .about_company_logos .op_website_link a:hover {
-  color: aqua;
+  color: #010e16;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -2831,7 +2836,7 @@ img, svg {
   font-size: 64px;
   line-height: 37px;
   text-align: center;
-  color: #FFFFFF;
+  color: #010e16;
 }
 
 .modal_info_container .about_project_ui .modal_tk_wrap a img {

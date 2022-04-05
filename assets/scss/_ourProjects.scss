@@ -52,15 +52,15 @@
     .modal-dialog{
       max-width: 1320px;
       .modal-content{
-        background-color: #01161D;
+        background-color: #5dffe8;
         border-radius: 20px;
         .modal-header{
           border: 0;
           .btn-close{
             width: 18px;
             height: 18px;
-            color: #fff;
-            filter: brightness(0) invert(1);
+            color: #000;
+            filter: brightness(0) invert(0);
             opacity: 1;
           }
         }
