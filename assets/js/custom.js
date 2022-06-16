@@ -80,7 +80,7 @@ $(document).ready(function () {
     $('.projects_slider')
       .slick({
         autoplay:true,
-        autoplaySpeed:2000,
+        autoplaySpeed:3000,
         pauseOnHover: true,
         dots: false,
         arrows: false,
