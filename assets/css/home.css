@@ -1,0 +1,47 @@
+.ps-content {
+  background: linear-gradient(135.87deg, #1a5153 2.28%, rgba(26, 81, 83, 0.0520833) 71.8%, rgba(26, 81, 83, 0) 75.62%);
+  padding: 50px 30px;
+  margin-left: -60px;
+}
+.ps-content .check_test, .ps-content h2, .ps-content p {
+  color: #fff;
+}
+.projects_section .slick-arrow {
+  text-indent: -9999999999px;
+  background: transparent;
+  border: 0;
+  padding: 10px 20px;
+}
+.projects_section .slick-prev {
+  left: -20px;
+  position: absolute;
+  bottom: 50%;
+  z-index: 1;
+  background-image: url(../images/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.projects_section .slick-next {
+  right: -20px;
+  position: absolute;
+  bottom: 50%;
+  z-index: 1;
+  background-image: url(../images/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  transform: rotate(180deg);
+}
+@media (max-width: 767px) {
+  .ps-content {
+    margin-left: 0px;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .ps-content {
+      margin-left: 0px;
+    }
+}
