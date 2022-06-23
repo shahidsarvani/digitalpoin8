@@ -388,12 +388,14 @@ section {
 .nav_list_dp li a {
   text-decoration: none;
   font-size: 18px;
-  color: #FFF;
+  color: #FFF !important;
 }
-
+.nav-link{
+  color: #FFF !important;
+}
 .navbar_dp .nav_cp_dp .navbar-nav .nav-item .nav-link {
   text-decoration: none;
-  color: #FFF;
+  color: #FFF !important;
   font-size: 16px;
   border: 2px solid transparent;
   padding: 5px 10px;
@@ -406,7 +408,11 @@ section {
 .navbar_dp .nav_cp_dp .navbar-nav .nav-item .nav-link:hover, .navbar_dp .nav_cp_dp .navbar-nav .nav-item .nav-link.active {
   border: 2px solid #14484B;
   border-radius: 50px;
-  color: #5DFFE8;
+  color: #5DFFE8 !important;
+}
+
+a{
+  color: #5DFFE8 !important;
 }
 
 @media (max-width: 992px) {
