@@ -42,6 +42,22 @@
 .email-sent-box img {
   width: 60px;
 }
+.expertise_services .exp_services_wrap .primary-btn {
+  color: #000 !important;
+}
+.expertise_services .exp_services_wrap .primary-btn:hover {
+  color: #5DFFE8 !important;
+  border-color: #5DFFE8 !important;
+}
+
+.sd_img_wrap .primary-btn {
+  color: #000 !important;
+}
+.sd_img_wrap .primary-btn:hover {
+  color: #5DFFE8 !important;
+  border-color: #5DFFE8 !important;
+}
+
 @media (max-width: 767px) {
   .ps-content {
     margin-left: 0px;
